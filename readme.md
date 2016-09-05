@@ -1,9 +1,9 @@
-#1.A Pragmatic Philosophy
+#A Pragmatic Philosophy
 **Tip 1: Care About Your Craft**
 
 **Tip 2: Think! About Your Work**
 
-##1.1.The Cat Ate My Source Code
+##1.The Cat Ate My Source Code
 **Tip 3: Provide Options, Don't Make Lame Excuses**
 
 Instead of excuses, provide options. Don't say it can't be done; explain what can be done to salvage the situation.
@@ -11,7 +11,7 @@ Instead of excuses, provide options. Don't say it can't be done; explain what ca
 ###Challenges
 How do you react when someone such as a bank teller, an auto mechanic, or a clerk—comes to you with a lame excuse? What do you think of them and their company as a result?
 
-##1.2.Software Entropy
+##2.Software Entropy
 One broken window, left unrepaired for any substantial length of time, instills in the inhabitants of the building a sense of abandonment—a sense that the powers that be don't care about the building. So another window gets broken. People start littering. Graffiti appears. Serious structural damage begins. In a relatively short space of time, the building becomes damaged beyond the owner's desire to fix it, and the sense of abandonment becomes reality.    
 
 **Tip 4: Don't Live with Broken Windows**   
@@ -23,7 +23,7 @@ Don't mess up the carpet when fixing the broken window.
 * Help strengthen your team by surveying your computing "neighborhood." Choose two or three "broken windows" and discuss with your colleagues what the problems are and what could be done to fix them.
 * Can you tell when a window first gets broken? What is your reaction? If it was the result of someone else's decision, or a management edict, what can you do about it?
 
-##1.3.Stone Soup and Boiled Frogs
+##3.Stone Soup and Boiled Frogs
 It's time to bring out the stones. Work out what you can reasonably ask for. Develop it well. Once you've got it, show people, and let them marvel. Then say "of course, it would be better if we added…."
 
 _People find it easier to join an ongoing success._
@@ -41,10 +41,10 @@ Don't be like the frog. Keep an eye on the big picture.
 ###Challenges
 Can you determine whether you're making stone soup or frog soup when you try to catalyze change? Is the decision subjective or objective?
 
-##1.4.Good enough soup
+##4.Good enough soup
 The scope and quality of the system you produce should be specified as part of that system's requirements.
 
-**Tip 7:Make Quality a Requirements Issue**
+**Tip 7: Make Quality a Requirements Issue**
 
 Great software today is often preferable to perfect software tomorrow. **Know When to Stop**
 
@@ -53,7 +53,7 @@ Great software today is often preferable to perfect software tomorrow. **Know Wh
 * Look at the manufacturers of the software tools and operating systems that you use. Can you find any evidence that these companies are comfortable shipping software they know is not perfect? As a user, would you rather (1) wait for hem to get all the bugs out, (2) have complex software and accept some bugs, or (3) opt for simpler software with fewer defects?
 * Consider the effect of modularization on the delivery of software. Will it take more or less time to get a monolithic block of software to the required quality compared with a system designed in modules? Can you find commercial examples?
 
-##1.5.Your Knowledge Portfolio
+##5.Your Knowledge Portfolio
 _An investment in knowledge always pays the best interest._
 
 * 1. Serious investors invest regularly—as a habit.
@@ -83,14 +83,14 @@ _An investment in knowledge always pays the best interest._
 * Get wired.
 
 You need to ensure that the knowledge in your portfolio is accurate and unswayed by either vendor or media hype. 
-**Tip 9:Critically Analyze What You Read and Hear**
+**Tip 9: Critically Analyze What You Read and Hear**
 
 ###Challenges
 * Start learning a new language this week. 
 * Start reading a new book (but finish this one first') If you are doing very detailed implementation and coding, read a book on design and architecture. If you are doing high-level design, read a book on coding techniques.
 * Get out and talk technology with people who aren't Involved in your current project.
 
-##1.6.Communicate
+##6.Communicate
 * Know what you want to say. Plan what you want to say. Write an outline. 
 * Know your audience. (WISDOM acrostic)
   * What they **Want**?
@@ -105,19 +105,65 @@ You need to ensure that the knowledge in your portfolio is accurate and unswayed
 * Involve your audience:  Get their feedback, and pick their brains. 
 * Be a listener: Encourage people to talk by asking questions.
 * Get back to people: Keep people informed afterwards.
+**Tip 10: It's Both What You Say and the Way You Say It**
 
-##Challenges
+###Challenges
 * There are several good books that contain sections on communications Try to read some of them.
 * The next time you have to give a presentation, or write a memo advocating some position, try working through the wisdom acrostic before you start. See if it helps you understand how to position what you say. If appropriate, talk to your audience afterward and see how accurate your assessment of their needs was.
 
+#A Pragmatic Approach
 
+##7.The Evils of Duplication
+The problem arises when you need to change a representation of things that are across all the code base.       
+Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.   
 
+**Tip 11: DRY—Don't Repeat Yourself**
 
+Types of duplication:
 
+* **Imposed duplication** Developers feel they have no choice—the environment seems to require duplication.
+* **Inadvertent duplication** Developers don't realize that they are duplicating information.
+* **Impatient duplication** Developers get lazy and duplicate because it seems easier.
+* **Interdeveloper duplication** Multiple people on a team (or on different teams) duplicate a piece of information.
 
+**Tip 12: Male it easy to reuse**
 
+##8.Orthogonality
 
+Two or more things are orthogonal if changes in one do not affect any of the others. Also called *cohesion*.
 
+**Tip 13: Eliminate Effects Between Unrelated Things**
+
+Benefits:
+
+* Gain Productivity
+	* Changes are localized
+	* Promotes reuse
+	* M x N orthogonal components do more than M x N non orthogonal components
+* Reduce Risk
+	* Diseased sections or code are isolated
+	* Are better tested
+	* Not tied to a product or platform
+* Project Teams: Functionality is divided 
+* Design: Easier to design a complete project through its components
+* Toolkits and Libraries: Choose wisely to keep orthogonality
+* Coding: In order to keep orthogonality when adding code do:
+	* Keep your code decoupled
+	* Avoid  global data
+	* Avoid similar functions
+* Testing: Orthogonal systems are easier to test.
+* Documentation: Also gain quality
+
+###Challenges
+
+* What feels better a large GUI-oriented tools or a small but combinable command line utilities. Which is easier to use? Which set is easier to combine?
+
+*  Multiple inheritance, multiple interfaces. What impact does it have in orthogonality? What is the difference between using multiple inheritance and multiple interfaces? Is there a difference between using delegation or inheritance?
+
+##9.Reversibility
+Be prepared for changes.
+
+**Tip14: There are no Final Decisions.**
 
 
 
