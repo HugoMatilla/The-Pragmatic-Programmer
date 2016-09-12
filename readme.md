@@ -285,3 +285,38 @@ Start keeping a log of your estimates. For each, track how accurate you turned o
 
 
 #Chapter 3. The Basic Tools
+**Tip 20: Keep Knowledge in plain text**
+
+##14.-The Power of Plain Text
+
+###Drawbacks
+* more space
+* computationally more expensive
+
+###The Power of Text
+* Insurance against obsolescence: you will always have a chance to be able to use text.
+* Leverage: Virtually every tool in the computing can operate on plain text.
+* Easier testing
+
+##15.-Shell Games
+**Tip 21: Use the power of command Shells**
+
+Can't you do everything equally well by pointing and clicking in a GUI?
+**No**. A benefit of GUIs is _WYSIWYG_—what you see is what you get. The disadvantage is _WYSIAYG_—what you see is all you get.
+
+##16.-Power Editing
+**Tip 22: Use a Single Editor Well**
+
+###Editor "must" features
+* Configurable
+* Extensible
+* Programmable
+* Syntax highlighting
+* Auto-completion
+* Auto-indentation
+* Initial code or document boilerplate
+* Tie-in to help systems
+* IDE-like features (compile, debug, and so on)
+
+##17.-Source Code Control
+**Tip 23: Always Use Source Code Control**
