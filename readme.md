@@ -320,3 +320,55 @@ Can't you do everything equally well by pointing and clicking in a GUI?
 
 ##17.-Source Code Control
 **Tip 23: Always Use Source Code Control**
+
+##18.-Debugging 
+**Tip 24: Fix the Problem, Not the Blame**   
+**Tip 25: Don't Panic**
+
+###A Debugging Mindset
+Don't waste a single neuron on the train of thought that begins "but that can't happen" because quite clearly it can, and has.  
+Try to discover the root cause of a problem, not just this particular appearance of it.  
+
+###Where to Start
+* Before you start, check the warnings or better remove all of them.  
+* You first need to be accurate in your observations and data.
+
+###Debugging Strategies
+####Bug Reproduction
+* The best way to start fixing a bug is to make it reproducible.
+* The second best way is to make it reproducible with a _single command_.  
+
+#####Visualize Your Data 
+Use the tools that the debugger offers you. Pen and paper can also help.
+#####Tracing
+Now what happens before and after.
+####Rubber Ducking
+Explain the bug to someone else.
+####Process of Elimination
+It is possible that a bug exists in the OS, the compiler, or a third-party product—but this should not be your first thought.
+**Tip 26: "select" Isn't Broken**
+
+###The Element of Surprise
+**Tip 27: Don't Assume It—Prove It**
+
+###Debugging Checklist
+* Is the problem being reported a direct result of the underlying bug, or merely asymptom?
+* Is the bug really in the compiler? Is it in the OS? Or is it in your code?
+* If you explained this problem in detail to a coworker, what would you say?
+* If the suspect code passes its unit tests, are the tests complete enough? Whathappens if you run the unit test with this data?
+* Do the conditions that caused this bug exist anywhere else in the system?
+
+##19.-Text Manipulation
+**Tip 28: Learn a Text Manipulation Language**
+##20.-Code Generators
+**Tip 29: Write Code That Writes Code**
+Two main types of code generators:
+
+* **Passive code generators** are run once to produce a result. They are basically parameterized templates, generating a given output from a set of inputs.
+* **Active code generators** are used each time their results are required. Take a single representation of some piece of knowledge and convert it into all the forms your application needs.
+
+###Code Generators Needn't Be Complex
+Keep the input format simple, and the code generator becomes simple.
+###Code Generators Needn't Generate Code
+You can use code generators to write just about any output: HTML, XML, plain text - any text that might be an input somewhere
+else in your project.
