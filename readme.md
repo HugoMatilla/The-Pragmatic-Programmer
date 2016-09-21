@@ -131,6 +131,7 @@ Types of duplication:
 ##8.-Orthogonality
 
 Two or more things are orthogonal if changes in one do not affect any of the others. Also called *cohesion*.
+Write "shy" code.   
 
 **Tip 13: Eliminate Effects Between Unrelated Things**
 
@@ -372,3 +373,45 @@ Keep the input format simple, and the code generator becomes simple.
 ###Code Generators Needn't Generate Code
 You can use code generators to write just about any output: HTML, XML, plain text - any text that might be an input somewhere
 else in your project.
+#Chapter 4. A Pragmatic Paranoia
+**Tip 30: You can't write Perfect Software**
+No one in the brief history of computing has ever written a piece of perfect software.  
+Pragmatic Programmers don't trust themselves, either.  
+
+##21.-Design by Contract
+A correct program is one that does no more and no less than it claims to do.
+Use: 
+
+* Preconditions
+* Postconditions
+* Invariants
+
+
+**Tip 31: Design with Contracts**
+
+Write "lazy" code: be strict in what you will accept before you begin, and promise as little as possible in return.
+
+###Implementing DBC
+Simply enumerating at design time:
+
+* what the input domain range is
+* what the boundary conditions are
+* what the routine promises to deliver (and what it doesn't)
+
+###Assertions
+You can use assertions to apply DBC in some range. (Assertions are not propagated in subclasses)
+
+**DBC enforce Crashing Early**
+###Invariants
+* Loop Invariants: Is true before and during the loop therefore also when the loop finishes
+* Semantic Invariants: ie the error should be on the side of not processing a transaction rather than processing a duplicate transaction.
+
+##22.-Dead Programs Tell No Lies
+All errors give you information. Pragmatic Programmers tell themselves that if there is an error, something very, very bad has happened.
+
+**Tip 32: Crash Early**
+
+`A dead program normally does a lot less damage than a crippled one.`
+
+When your code discovers that something that was supposed to be impossible just happened, your
+program is no longer viable.
