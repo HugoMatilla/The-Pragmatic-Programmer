@@ -415,3 +415,31 @@ All errors give you information. Pragmatic Programmers tell themselves that if t
 
 When your code discovers that something that was supposed to be impossible just happened, your
 program is no longer viable.
+
+##23.-Assertive Programming
+**Tip 33: If It Can't Happen, Use Assertions to Ensure That It Won't**   
+
+* Assertions are also useful checks on an algorithm's operation.   
+* Don't use assertions in place of real error handling.   
+* Leave Assertions Turned On, unless you have critical performance issues.
+
+##24.-When to Use Exceptions
+**Tip 34: Use Exceptions for Exceptional Problems**
+###What Is Exceptional?
+The program must run if I all the exception handlers are removed
+If your code tries to open a file for reading and that file does not exist, should an exception be raised
+
+* Yes: If the file should have been there
+* No: If you have no idea whether the file should exist or not
+
+##25.-How to Balance Resources
+When managing resources: memory, transactions, threads, flies, timers—all kinds of things with limited availability, we have to close, finish, delete, deallocate them when we are done.
+**Tip 35: Finish What You Start**
+###Nest Allocations
+
+* 1.-Deallocate resources in the opposite order to that in which you allocate them
+* 2.-When allocating the same set of resources in different places in your code, always allocate them in the same order (prevent deadlocks)
+
+###Objects and Exceptions
+Use `finally` to free resources.
+
