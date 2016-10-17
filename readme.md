@@ -443,3 +443,67 @@ When managing resources: memory, transactions, threads, flies, timers—all kind
 ###Objects and Exceptions
 Use `finally` to free resources.
 
+#Chapter 5. Bend or Break
+##25.-Decoupling and the Law of Demeter
+###Minimize Coupling
+Be careful about how many other modules you interact with and, how you came to interact with them.
+
+Traversing relationships between objects directly can quickly lead to a combinatorial explosion.
+```java
+	
+	book.pages().last().text().
+	
+	// Instead, we're supposed to go with:
+	
+	book.textOfLastPage()
+```
+Symptoms:
+
+1. Large projects where the command to link a unit test is longer than the test program itself
+2. "Simple" changes to one module that propagate through unrelated modules in the system
+3. Developers who are afraid to change code because they aren't sure what might be affected
+
+###The Law of Demeter for Functions
+
+The Law of Demeter for functions states that  any method of an object should call only methods  belonging to:
+```
+
+	class Demeter {
+  		private A a;
+  		void m(B b) {
+  			a.hello(); 							//itself
+    		b.hello(); 							//any parameters that were passed to the method
+    		new Z().hello(); 					// any object it created
+    		Singleton.INSTANCE.hello(); 		// any directly held component
+  		}
+	}
+```
+**Tip 36: Minimize Coupling Between Modules**
+
+###Does It Really Make a Difference?
+Using The Law of Demeter will make your code more adaptable and robust, but at a cost:   
+you will be writing a large number of wrapper methods that simply forward the request on to a delegate. imposing both a runtime cost and a space overhead.  
+Balance the pros and cons for your particular application.
+
+##26.-Metaprogramming
+"Out with the details!" Get them out of the code. While we're at it, we can make our code highly configurable and "soft"—that is, easily adaptable to changes.   
+###Dynamic Configuration
+**Tip 37: Configure, Don't Integrate**
+###Metadata-Driven Applications
+We want to configure and drive the application via metadata as much as possible.
+_Program for the general case, and put the specifics somewhere else —outside the compiled code base_
+**Tip 38: Put Abstractions in Code Details in Metadata**
+
+Benefits:
+
+* It forces you to decouple your design, which results in a more flexible and adaptable program.
+* It forces you to create a more robust, abstract design by deferring details—deferring them all the way out of the program.
+* You can customize the application without recompiling it.
+* Metadata can be expressed in a manner that's much closer to the problem domain than a general-purpose programming language might be.
+* You may even be able to implement several different projects using the same application engine, but with different metadata.
+
+###When to Configure
+A flexible approach is to write programs that can reload their configuration while they're running. 
+
+* long-running server process:  provide some way to reread and apply metadata while the program is running.
+* small client GUI application: if restarts quickly no problem.
