@@ -530,7 +530,7 @@ In a hungry consumer model, you replace the central scheduler with a number of i
 
 **Tip 40: Design Using Services**
 
-##Design for Concurrency
+###Design for Concurrency
 Programming with threads imposes some design constraints—and that's a good thing.
 
 * Global or static variables must be protected from concurrent access
@@ -538,23 +538,23 @@ Programming with threads imposes some design constraints—and that's a good thi
 * Consistent state information, regardless of the order of calls
 * Objects must always be in a valid state when called, and they can be called at the most awkward times. Use class invariants, discussed in Design by Contract.
 
-##Cleaner Interfaces
+###Cleaner Interfaces
 Thinking about concurrency and time-ordered dependencies can lead you to design cleaner interfaces as well.
 
 **Tip 41: Always Design for Concurrency**
 
-##Deployment
+###Deployment
 You can be flexible as to how the application is deployed: standalone, client-server, or n-tier.    
 
 If we design to allow for concurrency, we can more easily meet scalability or performance requirements when the time comes—and if the time never comes, we still have the benefit of a cleaner design.  
 
-##29 It's Just a View
-##Publish/Subscribe
+##29.-It's Just a View
+###Publish/Subscribe
 Objects should be able to register to receive only the events they need, and should never be sent events they don't need.
 
 Use this publish/subscribe mechanism to implement a very important design concept: the separation of a model from views of the model.
 
-##Model-View-Controller
+###Model-View-Controller
 Separates the model from both the GUI that represents it and the controls that manage the view.
 
 Advantage:
@@ -564,15 +564,15 @@ Advantage:
 * Support multiple controllers to provide nontraditional input mechanisms.
 
 **Tip 42: Separate Views from Models**
-##Beyond GUIs
+###Beyond GUIs
 The controller is more of a coordination mechanism, and doesn't have to be related to any sort of input device.
 
 * **Model** The abstract data model representing the target object. The model has no direct knowledge of any views or controllers.
 * **View** A way to interpret the model. It subscribes to changes in the model and logical events from the controller.
-* **Controller** A way to control the view and provide the model with new data. It publishes events to both the model and the view.
+* **C ontroller** A way to control the view and provide the model with new data. It publishes events to both the model and the view.
 
 
-##Blackboards
+##30.-Blackboards
 A blackboard system lets us decouple our objects from each other completely, providing a forum where knowledge consumers and producers can exchange data anonymously and asynchronously.
 ###Blackboard Implementations
 With Blackboard systems, you can store active objects—not just data—on the blackboard, and retrieve them by partial matching of fields (via templates and wildcards) or by subtypes.
@@ -587,3 +587,123 @@ Functions that a Blackboard system should have:
 Organizing Your Blackboard by partitioning it when working on large cases.
 
 **Tip 43: Use Blackboards to Coordinate Workflow**
+
+#Chapter 6. While you are coding
+##31.-Program by Coincidence
+We should avoid programming by coincidence—relying on luck and accidental successes— in favor of programming deliberately.
+**Tip 44: Don't Program by Coincidence**
+
+###How to Program Deliberately
+* Always be aware of what you are doing.
+* Don't code blindfolded. 
+* Proceed from a plan.
+* Rely only on reliable things.
+* Document your assumptions. [Design by Contract](asd).
+* Don't just test your code, but test your assumptions as well. Don't guess [Assertive Programming]()
+* Prioritize your effort.
+* Don't be a slave to history. Don't let existing code dictate future code.[Refactoring]()
+
+##32.-Algorithm Speed
+Pragmatic Programmers estimate the resources that algorithms use—time, processor, memory, and so on.   
+
+###Use: Big O Notation
+* **O(1)**: Constant (access element in array, simple statements)
+```
+	bool IsFirstElementNull(IList<string> elements)
+	{
+    	return elements[0] == null;
+	}
+```
+* **O(lg(n))**: Logarithmic (binary search) lg(n) = lg2(n)
+```
+
+	Int BinarySearch(list, target)
+	{
+	   lo = 1, hi = size(list)
+	   while (lo <= hi){
+	      mid = lo + (hi-lo)/2
+	      if (list[mid] == target) return mid            
+	      else if (list[mid] < target) lo = mid+1
+	      else hi = mid-1
+	   }
+	}
+
+```
+* **O(n)**: Linear: Sequential search
+```
+
+	bool ContainsValue(IList<string> elements, string value)
+	{
+	    foreach (var element in elements)
+	    {
+	        if (element == value) return true;
+	    }
+
+	    return false;
+	}
+
+```
+* **O(n lg(n))**: Worse than linear but not much worse(average runtime of quickshort, headsort)
+* **O(n²)**: Square law (selection and insertion sorts)
+```
+
+	bool ContainsDuplicates(IList<string> elements)
+	{
+	    for (var outer = 0; outer < elements.Count; outer++)
+	    {
+	        for (var inner = 0; inner < elements.Count; inner++)
+	        {
+	            // Don't compare with self
+	            if (outer == inner) continue;
+
+	            if (elements[outer] == elements[inner]) return true;
+	        }
+	    }
+
+	    return false;
+	}
+
+```
+* **O(n³)**: Cubic (multiplication of 2 n x n matrices)
+* **O(Cⁿ)**: Exponential (travelling salesman problem, set partitioning)
+```
+
+	int Fibonacci(int number)
+	{
+	    if (number <= 1) return number;
+
+	    return Fibonacci(number - 2) + Fibonacci(number - 1);
+	}
+```
+
+###Common Sense Estimation
+* Simple loops: O(n)
+* Nested loops: O(n²)
+* Binary chop: O(lg(n))
+* Divide and conquer: O(n lg(n)). Algorithms that partition their input, work on the two halves independently, and then combine the result.
+* Combinatoric: O(Cⁿ)
+
+
+**Tip 45: Estimate the Order of Your Algorithms**
+
+**Tip 46: Test Your Estimates**
+
+###Best Isn't Always Best
+Be pragmatic about choosing appropriate algorithms—the fastest one is not always the best for the job.    
+
+Be wary of premature optimization. Make sure an algorithm really is a bottleneck before investing time improving it.
+
+##33.-Refactoring
+Code needs to evolve; it's not a static thing.
+
+###When Should You Refactor?	
+* Duplication. You've discovered a violation of the DRY principle ([The Evils of Duplication]()).
+* Nonorthogonal design. You've discovered some code or design that could be made more orthogonal ([Orthogonality]()).
+* Outdated knowledge. Things change, requirements drift, and your knowledge of the problem increases. Code needs to keep up.
+* Performance. You need to move functionality from one area of the system to another to improve performance.	
+
+**Tip 47: Refactor Early, Refactor Often**
+
+###How Do You Refactor?
+* 1. Don't try to refactor and add functionality at the same time.
+* 2. Make sure you have good tests before you begin refactoring.
