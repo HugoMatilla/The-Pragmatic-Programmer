@@ -707,3 +707,53 @@ Code needs to evolve; it's not a static thing.
 ###How Do You Refactor?
 * 1. Don't try to refactor and add functionality at the same time.
 * 2. Make sure you have good tests before you begin refactoring.
+* 3. Take short, deliberate steps.
+
+##34.-Code That's Easy to Test
+Build testability into the software from the very beginning, and test each piece thoroughly before trying to wire them together.
+
+###Unit Testing
+Testing done on each module, in isolation, to verify its behavior.   
+A software unit test is code that exercises a module.
+
+###Testing Against Contract
+This will tell us two things:
+
+1. Whether the code meet the contract
+2. Whether the contract means what we think it means.
+
+**Tip 48: Design to Test**
+
+There's no better way to fix errors than by avoiding them in the first place.   
+Build the tests before you implement the code. 
+
+###Writing Unit Tests
+By making the test code readily accessible, you are providing developers who may use your code with two invaluable resources: 
+
+1. Examples of how to use all the functionality of your module
+2. A means to build regression tests to validate any future changes to the code
+
+You must run them, and run them often.
+
+###Using Test Harnesses
+Test harnesses should include the following capabilities:
+
+* A standard way to specify setup and cleanup
+* A method for selecting individual tests or all available tests
+* A means of analyzing output for expected (or unexpected) results
+* A standardized form of failure reporting
+
+###Build a Test Window
+
+* Log files.
+* Hot-key sequence.
+* Built-in Web server.
+
+###A Culture of Testing
+
+**Tip 49: Test Your Software, or Your Users Will**
+
+##35.-Evil Wizards
+If you do use a wizard, and you don't understand all the code that it produces, you won't be in control of your own application.
+
+**Tip 50: Don't Use Wizard Code You Don't Understand**
