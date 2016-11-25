@@ -921,3 +921,106 @@ Our goal is to maintain an automatic, unattended, content-driven workflow.
 
 ###The Cobbler's Children
 Let the computer do the repetitious, the mundane—it will do a better job of it than we would. We've got more important and more difficult things to do.
+##43.-Ruthless testing
+Pragmatic Programmers are driven to find our bugs now, so we don't have to endure the shame of others finding our bugs later.
+
+**Tip 62: Test Early. Test Often. Test Automatically.**
+
+Tests that run with every build are the most effective.
+
+The earlier a bug is found, the cheaper it is to remedy. "Code a little, test a little".
+
+**Tip 63: Coding Ain't Done 'Til All the Tests Run**
+
+###3 Main aspects:
+
+####1.-What to Test
+
+* Unit testing: code that exercises a module.
+* Integration testing: the major subsystems that make up the project work and play well with each other.
+* Validation and verification: test if you are delivering what users needs.
+* Resource exhaustion, errors, and recovery: discover how it will behave under real-world conditions. (Memory, Disk ,CPU , Screen...)
+* Performance testing: meets the performance requirements under real-world conditions.
+* Usability testing: performed with real users, under real environmental conditions.
+
+####2.-How to Test
+
+* Regression testing: compares the output of the current test with previous (or known) values. Most of the tests are regression tests.
+* Test data: there are only two kinds of data: real-world data and synthetic data.
+* Exercising GUI systems: requires specialized testing tools, based on a simple event capture/playback model.
+* Testing the tests: After you have written a test to detect a particular bug, cause the bug deliberately and make sure the test complains.
+	**Tip 64: Use Saboteurs to Test Your Testing**
+* Testing thoroughly: 
+	**Tip 65: Test State Coverage, Not Code Coverage**
+
+####4.-When to Test
+As soon as any production code exists, it needs to be tested.   
+Most testing should be done automatically.
+
+###Tightening the Net
+If a bug slips through the net of existing tests, you need to add a new test to trap it next time.  
+**Tip 66: Find Bugs Once**
+
+##44.-It's All Writing
+If there's a discrepancy, the code is what matters—for better or worse.
+
+**Tip 67: Treat English as Just Another Programming Language**
+
+**Tip 68: Build Documentation In, Don't Bolt It On**
+
+###Comments in Code
+In general, comments should discuss why something is done, its purpose and its goal.
+
+Remember that you (and others after you) will be reading the code many hundreds of times, but only writing it a few times.
+
+Even worse than meaningless names are misleading names.
+
+One of the most important pieces of information that should appear in the source file is the author's name—not necessarily who edited the file last, but the owner.
+
+###Executable Documents
+Create documents that create schemas. The only way to change the schema is to change the document.
+
+###Technical Writers
+We want the writers to embrace the same basic principles that a Pragmatic Programmer does—especially honoring the DRY principle, orthogonality, the model-view concept, and the use of automation and scripting.
+
+###Print It or Weave It
+Paper documentation can become out of date as soon as it's printed.
+
+Publish it online, on the Web.
+
+Remember to put a date stamp or version number on each Web page.
+
+Using a markup system, you have the flexibility to implement as many different output formats as you need.
+
+###Markup Languages
+Documentation and code are different views of the same underlying model, but the view is all that should be different.
+
+##-.45 Great Expectations
+The success of a project is measured by how well it meets the expectations of its users.	
+
+**Tip 69: Gently Exceed Your Users' Expectations**
+
+###Communicating Expectations
+Users initially come to you with some vision of what they want. You cannot just ignore it.
+
+Everyone should understand what's expected and how it will be built.  
+
+###The Extra Mile
+Give users that little bit more than they were expecting.
+
+* Balloon or ToolTip help
+* Keyboard shortcuts
+* A quick reference guide as a supplement to the user's manual
+* Colorization
+* Log file analyzers
+* Automated installation
+* Tools for checking the integrity of the system
+* The ability to run multiple versions of the system for training
+* A splash screen customized for their organization
+
+###Pride and Prejudice
+Pragmatic Programmers don't shirk from responsibility. Instead, we rejoice in accepting challenges and in making our expertise well known.
+
+We want to see pride of ownership. "I wrote this, and I stand behind my work."
+
+**Tip 70: Sign Your Work**
