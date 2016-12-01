@@ -81,7 +81,11 @@ There is a [Quick Reference](#quick-reference) at the end.
 #Chapter 1. A Pragmatic Philosophy
 **Tip 1: Care About Your Craft**
 
+Why spend your life developing software unless you care about doing it well?
+
 **Tip 2: Think! About Your Work**
+
+Turn off the autopilot and take control. Constantly critique and appraise your work.
 
 ##1.-The Cat Ate My Source Code
 **Tip 3: Provide Options, Don't Make Lame Excuses**
