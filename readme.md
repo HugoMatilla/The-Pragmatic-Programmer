@@ -156,8 +156,8 @@ There is a [Quick Reference](#quick-reference) at the end.
 		- [Communicating Expectations](#communicating-expectations)
 		- [The Extra Mile](#the-extra-mile)
 		- [Pride and Prejudice](#pride-and-prejudice)
-- [Quick Reference:](#quick-reference)
-	- [Tips:](#tips)
+- [Quick Reference](#quick-reference)
+	- [Tips](#tips)
 	- [CheckList](#checklist)
 		- [Languages To Learn](#languages-to-learn)
 		- [The WISDOM Acrostic](#the-wisdom-acrostic)
@@ -1170,8 +1170,8 @@ We want to see pride of ownership. "I wrote this, and I stand behind my work."
 **Tip 70: Sign Your Work**
 
 
-#Quick Reference:
-##Tips:
+#Quick Reference
+##Tips
 **Tip 1: Care About Your Craft**  
 Why spend your life developing software unless you care about doing it well? 
 
