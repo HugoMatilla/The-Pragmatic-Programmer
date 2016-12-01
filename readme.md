@@ -10,23 +10,16 @@ Contributions: Issues, comments and pull requests are super welcome 😃
 - [Table of Contents](#table-of-contents)
 - [Chapter 1. A Pragmatic Philosophy](#chapter-1-a-pragmatic-philosophy)
 	- [1.-The Cat Ate My Source Code](#1-the-cat-ate-my-source-code)
-		- [Challenges](#challenges)
 	- [2.-Software Entropy](#2-software-entropy)
-		- [Challenges](#challenges)
 	- [3.-Stone Soup and Boiled Frogs](#3-stone-soup-and-boiled-frogs)
-		- [Challenges](#challenges)
 	- [4.-Good enough soup](#4-good-enough-soup)
-		- [Challenges](#challenges)
 	- [5.-Your Knowledge Portfolio](#5-your-knowledge-portfolio)
 		- [Building Your Portfolio](#building-your-portfolio)
 		- [Goals](#goals)
-		- [Challenges](#challenges)
 	- [6.-Communicate](#6-communicate)
-		- [Challenges](#challenges)
 - [Chapter 2. A Pragmatic Approach](#chapter-2-a-pragmatic-approach)
 	- [7.-The Evils of Duplication](#7-the-evils-of-duplication)
 	- [8.-Orthogonality](#8-orthogonality)
-		- [Challenges](#challenges)
 	- [9.-Reversibility](#9-reversibility)
 	- [10-Tracer Bullets](#10-tracer-bullets)
 		- [Tracer Bullets Don't Always Hit Their Target](#tracer-bullets-dont-always-hit-their-target)
@@ -188,20 +181,12 @@ Contributions: Issues, comments and pull requests are super welcome 😃
 
 Instead of excuses, provide options. Don't say it can't be done; explain what can be done to salvage the situation.
 
-###Challenges
-How do you react when someone such as a bank teller, an auto mechanic, or a clerk—comes to you with a lame excuse? What do you think of them and their company as a result?
-
 ##2.-Software Entropy
 One broken window, left unrepaired for any substantial length of time, instills in the inhabitants of the building a sense of abandonment—a sense that the powers that be don't care about the building. So another window gets broken. People start littering. Graffiti appears. Serious structural damage begins. In a relatively short space of time, the building becomes damaged beyond the owner's desire to fix it, and the sense of abandonment becomes reality.    
 
 **Tip 4: Don't Live with Broken Windows**   
 
 Don't mess up the carpet when fixing the broken window.
-
-###Challenges
-
-* Help strengthen your team by surveying your computing "neighborhood." Choose two or three "broken windows" and discuss with your colleagues what the problems are and what could be done to fix them.
-* Can you tell when a window first gets broken? What is your reaction? If it was the result of someone else's decision, or a management edict, what can you do about it?
 
 ##3.-Stone Soup and Boiled Frogs
 It's time to bring out the stones. Work out what you can reasonably ask for. Develop it well. Once you've got it, show people, and let them marvel. Then say "of course, it would be better if we added…."
@@ -218,20 +203,12 @@ Don't be like the frog. Keep an eye on the big picture.
 
 **Tip 6: Remember the Big Picture**   
 
-###Challenges
-Can you determine whether you're making stone soup or frog soup when you try to catalyze change? Is the decision subjective or objective?
-
 ##4.-Good enough soup
 The scope and quality of the system you produce should be specified as part of that system's requirements.
 
 **Tip 7: Make Quality a Requirements Issue**
 
 Great software today is often preferable to perfect software tomorrow. **Know When to Stop**
-
-###Challenges
-
-* Look at the manufacturers of the software tools and operating systems that you use. Can you find any evidence that these companies are comfortable shipping software they know is not perfect? As a user, would you rather (1) wait for hem to get all the bugs out, (2) have complex software and accept some bugs, or (3) opt for simpler software with fewer defects?
-* Consider the effect of modularization on the delivery of software. Will it take more or less time to get a monolithic block of software to the required quality compared with a system designed in modules? Can you find commercial examples?
 
 ##5.-Your Knowledge Portfolio
 _An investment in knowledge always pays the best interest._
@@ -265,10 +242,6 @@ _An investment in knowledge always pays the best interest._
 You need to ensure that the knowledge in your portfolio is accurate and unswayed by either vendor or media hype. 
 **Tip 9: Critically Analyze What You Read and Hear**
 
-###Challenges
-* Start learning a new language this week. 
-* Start reading a new book (but finish this one first') If you are doing very detailed implementation and coding, read a book on design and architecture. If you are doing high-level design, read a book on coding techniques.
-* Get out and talk technology with people who aren't Involved in your current project.
 
 ##6.-Communicate
 * Know what you want to say. Plan what you want to say. Write an outline. 
@@ -286,10 +259,6 @@ You need to ensure that the knowledge in your portfolio is accurate and unswayed
 * Be a listener: Encourage people to talk by asking questions.
 * Get back to people: Keep people informed afterwards.
 **Tip 10: It's Both What You Say and the Way You Say It**
-
-###Challenges
-* There are several good books that contain sections on communications Try to read some of them.
-* The next time you have to give a presentation, or write a memo advocating some position, try working through the wisdom acrostic before you start. See if it helps you understand how to position what you say. If appropriate, talk to your audience afterward and see how accurate your assessment of their needs was.
 
 #Chapter 2. A Pragmatic Approach
 
@@ -334,12 +303,6 @@ Benefits:
 	* Avoid similar functions
 * Testing: Orthogonal systems are easier to test.
 * Documentation: Also gain quality
-
-###Challenges
-
-* What feels better a large GUI-oriented tools or a small but combinable command line utilities. Which is easier to use? Which set is easier to combine?
-
-*  Multiple inheritance, multiple interfaces. What impact does it have in orthogonality? What is the difference between using multiple inheritance and multiple interfaces? Is there a difference between using delegation or inheritance?
 
 ##9.-Reversibility
 Be prepared for changes.
