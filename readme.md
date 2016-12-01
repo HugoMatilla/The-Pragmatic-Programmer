@@ -3,7 +3,7 @@ This is my summary of the The Pragmatic Programmer, by Andrew Hunt and David Tho
 
 If you are the publisher and think this repository should not be public, just write me an email at hugomatilla [at] gmail [dot] com and I will make it private.
 
-Contributions: Issues, comments and pull requests are super welcome 😃
+Contributions: Issues, comments and pull requests are super welcome 😃  
 There is a [Quick Reference](#quick-reference) at the end.
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
