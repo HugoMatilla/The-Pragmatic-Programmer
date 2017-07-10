@@ -124,11 +124,11 @@ Great software today is often preferable to perfect software tomorrow. **Know Wh
 ## 5.-Your Knowledge Portfolio
 _An investment in knowledge always pays the best interest._
 
-* 1. Serious investors invest regularly—as a habit.
-* 2. Diversification is the key to long-term success.
-* 3. Smart investors balance their portfolios between conservative and high-risk,high-reward investments.
-* 4. Investors try to buy low and sell high for maximum return.
-* 5. Portfolios should be reviewed and rebalanced periodically
+* Serious investors invest regularly—as a habit.
+* Diversification is the key to long-term success.
+* Smart investors balance their portfolios between conservative and high-risk,high-reward investments.
+* Investors try to buy low and sell high for maximum return.
+* Portfolios should be reviewed and rebalanced periodically
 
 
 ### Building Your Portfolio
@@ -389,17 +389,17 @@ Try to discover the root cause of a problem, not just this particular appearance
 * You first need to be accurate in your observations and data.
 
 ### Debugging Strategies
-### #Bug Reproduction
+#### Bug Reproduction
 * The best way to start fixing a bug is to make it reproducible.
 * The second best way is to make it reproducible with a _single command_.  
 
-### ##Visualize Your Data 
+#### Visualize Your Data 
 Use the tools that the debugger offers you. Pen and paper can also help.
-### ##Tracing
+#### Tracing
 Now what happens before and after.
-### #Rubber Ducking
+#### Rubber Ducking
 Explain the bug to someone else.
-### #Process of Elimination
+#### Process of Elimination
 It is possible that a bug exists in the OS, the compiler, or a third-party product—but this should not be your first thought.
 **Tip 26: "select" Isn't Broken**
 
