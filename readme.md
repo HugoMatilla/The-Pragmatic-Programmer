@@ -874,7 +874,7 @@ why you're doing it and that it is a prototype.
 ## 39.-The Specification Trap
 Writing a specification is quite a responsibility. 
 
-You should now when to stop:
+You should know when to stop:
 
 * Specification will never capture every detail of a system or its requirement.
 * The expressive power of language itself might not be enough to describe a specification
