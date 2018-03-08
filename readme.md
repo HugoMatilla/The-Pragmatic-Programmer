@@ -162,7 +162,7 @@ You need to ensure that the knowledge in your portfolio is accurate and unswayed
   * How **Sophisticated** are they?
   * How much **Detail** they want?
   * Who do you want to **Own** the information?
-  * How can you **Motivate** them to listen)
+  * How can you **Motivate** them to listen?
 * Choose your moment:  Understanding when your audience needs to hear your information.
 * Choose a style:  Just the facts, large bound reports, a simple memo.
 * Make it look good: Add good-looking vehicle to your important ideas and engage your audience.
@@ -410,7 +410,7 @@ It is possible that a bug exists in the OS, the compiler, or a third-party produ
 * Is the problem being reported a direct result of the underlying bug, or merely asymptom?
 * Is the bug really in the compiler? Is it in the OS? Or is it in your code?
 * If you explained this problem in detail to a coworker, what would you say?
-* If the suspect code passes its unit tests, are the tests complete enough? Whathappens if you run the unit test with this data?
+* If the suspect code passes its unit tests, are the tests complete enough? What happens if you run the unit test with this data?
 * Do the conditions that caused this bug exist anywhere else in the system?
 
 ## 19.-Text Manipulation
@@ -480,7 +480,7 @@ program is no longer viable.
 ## 24.-When to Use Exceptions
 **Tip 34: Use Exceptions for Exceptional Problems**
 ### What Is Exceptional?
-The program must run if I all the exception handlers are removed
+The program must run if all the exception handlers are removed
 If your code tries to open a file for reading and that file does not exist, should an exception be raised
 
 * Yes: If the file should have been there
@@ -500,7 +500,7 @@ Use `finally` to free resources.
 # Chapter 5. Bend or Break
 ## 26.-Decoupling and the Law of Demeter
 ### Minimize Coupling
-Be careful about how many other modules you interact with and, how you came to interact with them.
+Be careful about how many other modules you interact with and how you came to interact with them.
 
 Traversing relationships between objects directly can quickly lead to a combinatorial explosion.
 ```java
@@ -623,7 +623,7 @@ The controller is more of a coordination mechanism, and doesn't have to be relat
 
 * **Model** The abstract data model representing the target object. The model has no direct knowledge of any views or controllers.
 * **View** A way to interpret the model. It subscribes to changes in the model and logical events from the controller.
-* **C ontroller** A way to control the view and provide the model with new data. It publishes events to both the model and the view.
+* **Controller** A way to control the view and provide the model with new data. It publishes events to both the model and the view.
 
 
 ## 30.-Blackboards
@@ -655,7 +655,7 @@ We should avoid programming by coincidence—relying on luck and accidental succ
 * Document your assumptions. [Design by Contract](#21-design-by-contract).
 * Don't just test your code, but test your assumptions as well. Don't guess [Assertive Programming](#23-assertive-programming)
 * Prioritize your effort.
-* Don't be a slave to history. Don't let existing code dictate future code.[Refactoring](#33-refactoring)
+* Don't be a slave to history. Don't let existing code dictate future code. [Refactoring](#33-refactoring)
 
 ## 32.-Algorithm Speed
 Pragmatic Programmers estimate the resources that algorithms use—time, processor, memory, and so on.   
@@ -830,7 +830,7 @@ Gathering requirements in this way naturally leads you to a system that is well 
 Use "use cases"
 
 ### Overspecifying
-Requirements are not architecture. Requirements are not design, nor are they the user interface.Requirements are need.
+Requirements are not architecture. Requirements are not design, nor are they the user interface. Requirements are need.
 
 ### Seeing Further
 **Tip 53: Abstractions Live Longer than Details**
@@ -890,7 +890,7 @@ Formal methods have some serious shortcomings:
 
 * Diagrams are meaningless to the end users, show the user a prototype and let them play with it.
 * Formal methods seem to encourage specialization. It may not be possible to have an in-depth grasp of every aspect of a system.
-* We like to write adaptable, dynamic systems, using metadata to allow us to change the character of applications at runtime, but most current formal methods dn't allow it.
+* We like to write adaptable, dynamic systems, using metadata to allow us to change the character of applications at runtime, but most current formal methods don't allow it.
 
 ### Do Methods Pay Off?
 Never underestimate the cost of adopting new tools and methods.
@@ -993,7 +993,7 @@ The earlier a bug is found, the cheaper it is to remedy. "Code a little, test a 
 * Unit testing: code that exercises a module.
 * Integration testing: the major subsystems that make up the project work and play well with each other.
 * Validation and verification: test if you are delivering what users needs.
-* Resource exhaustion, errors, and recovery: discover how it will behave under real-world conditions. (Memory, Disk ,CPU , Screen...)
+* Resource exhaustion, errors, and recovery: discover how it will behave under real-world conditions. (Memory, Disk, CPU, Screen...)
 * Performance testing: meets the performance requirements under real-world conditions.
 * Usability testing: performed with real users, under real environmental conditions.
 
@@ -1119,7 +1119,7 @@ Every piece of knowledge must have a single, unambiguous, authoritative represen
 If it's easy to reuse, people will. Create an environment that supports reuse. 
 
 **Tip 13: Eliminate Effects Between Unrelated Things**  
-Design components that are self-contained. independent, and have a single, well-defined purpose. 
+Design components that are self-contained, independent, and have a single, well-defined purpose. 
 
 **Tip 14: There Are No Final Decisions**  
 No decision is cast in stone. Instead, consider each as being written in the sand at the beach, and plan for change. 
@@ -1149,10 +1149,10 @@ Use the shell when graphical user interfaces don't cut it.
 The editor should be an extension of your hand; make sure your editor is configurable, extensible, and programmable. 
 
 **Tip 23: Always Use Source Code Control**  
-Source code control is a time machine for your work – you can go back. 
+Source code control is a time machine for your work – you can go back. 
 
 **Tip 24: Fix the Problem, Not the Blame**  
-It doesn't really matter whether the bug is your fault or someone else's – it is still your problem, and it still needs to be fixed. 
+It doesn't really matter whether the bug is your fault or someone else's – it is still your problem, and it still needs to be fixed. 
 
 **Tip 25: Don't Panic When Debugging**  
 Take a deep breath and THINK! about what could be causing the bug. 
@@ -1160,7 +1160,7 @@ Take a deep breath and THINK! about what could be causing the bug.
 **Tip 26: "select" Isn't Broken.**  
 It is rare to find a bug in the OS or the compiler, or even a third-party product or library. The bug is most likely in the application. 
 
-**Tip 27: Don't Assume It – Prove It**  
+**Tip 27: Don't Assume It – Prove It**  
 Prove your assumptions in the actual environment – with real data and boundary conditions. 
 
 **Tip 28: Learn a Text Manipulation Language.**  
@@ -1251,7 +1251,7 @@ When faced with an impossible problem, identify the real constraints. Ask yourse
 You've been building experience all your life. Don't ignore niggling doubts. 
 
 **Tip 57: Some Things Are Better Done than Described**  
-Don't fall into the specification spiral – at some point you need to start coding. 
+Don't fall into the specification spiral – at some point you need to start coding. 
 
 **Tip 58: Don't Be a Slave to Formal Methods.**  
 Don't blindly adopt any technique without putting it into the context of your development practices and capabilities. 
