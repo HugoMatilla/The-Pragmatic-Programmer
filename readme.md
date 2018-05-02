@@ -751,7 +751,7 @@ Be wary of premature optimization. Make sure an algorithm really is a bottleneck
 Code needs to evolve; it's not a static thing.
 
 ### When Should You Refactor?	
-* Duplication. You've discovered a violation of the DRY principle ([The Evils of Duplication](7-the-evils-of-duplication)).
+* Duplication. You've discovered a violation of the DRY principle ([The Evils of Duplication](#7-the-evils-of-duplication)).
 * Nonorthogonal design. You've discovered some code or design that could be made more orthogonal ([Orthogonality](#8-orthogonality)).
 * Outdated knowledge. Things change, requirements drift, and your knowledge of the problem increases. Code needs to keep up.
 * Performance. You need to move functionality from one area of the system to another to improve performance.	
