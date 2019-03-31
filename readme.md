@@ -3,7 +3,7 @@ This is my summary of the The Pragmatic Programmer, by Andrew Hunt and David Tho
 
 If you are the publisher and think this repository should not be public, just write me an email at hugomatilla [at] gmail [dot] com and I will make it private.
 
-Contributions: Issues, comments and pull requests are super welcome 😃  
+Contributions: Issues, comments and pull requests are super welcome 😃
 There is a [Quick Reference](#quick-reference) at the end.
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
@@ -93,9 +93,9 @@ Turn off the autopilot and take control. Constantly critique and appraise your w
 Instead of excuses, provide options. Don't say it can't be done; explain what can be done to salvage the situation.
 
 ## 2.-Software Entropy
-One broken window, left unrepaired for any substantial length of time, instills in the inhabitants of the building a sense of abandonment—a sense that the powers that be don't care about the building. So another window gets broken. People start littering. Graffiti appears. Serious structural damage begins. In a relatively short space of time, the building becomes damaged beyond the owner's desire to fix it, and the sense of abandonment becomes reality.    
+One broken window, left unrepaired for any substantial length of time, instills in the inhabitants of the building a sense of abandonment—a sense that the powers that be don't care about the building. So another window gets broken. People start littering. Graffiti appears. Serious structural damage begins. In a relatively short space of time, the building becomes damaged beyond the owner's desire to fix it, and the sense of abandonment becomes reality.
 
-**Tip 4: Don't Live with Broken Windows**   
+**Tip 4: Don't Live with Broken Windows**
 
 Don't mess up the carpet when fixing the broken window.
 
@@ -104,15 +104,15 @@ It's time to bring out the stones. Work out what you can reasonably ask for. Dev
 
 _People find it easier to join an ongoing success._
 
-**Tip 5: Be a Catalyst for Change**   
+**Tip 5: Be a Catalyst for Change**
 
-Most software disasters start out too small to notice, and most project overruns happen a day at a time. 
- 
+Most software disasters start out too small to notice, and most project overruns happen a day at a time.
+
 If you take a frog and drop it into boiling water, it will jump straight back out again. However, if you place the frog in a pan of cold water, then gradually heat it, the frog won't notice the slow increase in temperature and will stay put until cooked.
 
-Don't be like the frog. Keep an eye on the big picture. 
+Don't be like the frog. Keep an eye on the big picture.
 
-**Tip 6: Remember the Big Picture**   
+**Tip 6: Remember the Big Picture**
 
 ## 4.-Good enough soup
 The scope and quality of the system you produce should be specified as part of that system's requirements.
@@ -143,19 +143,19 @@ _An investment in knowledge always pays the best interest._
 ### Goals
 * Learn at least one new language every year.
 * Read a technical book each quarter.
-* Read nontechnical books, too. 
-* Take classes. 
-* Participate in local user groups. 
-* Experiment with different environments. 
+* Read nontechnical books, too.
+* Take classes.
+* Participate in local user groups.
+* Experiment with different environments.
 * Stay current.
 * Get wired.
 
-You need to ensure that the knowledge in your portfolio is accurate and unswayed by either vendor or media hype. 
+You need to ensure that the knowledge in your portfolio is accurate and unswayed by either vendor or media hype.
 **Tip 9: Critically Analyze What You Read and Hear**
 
 
 ## 6.-Communicate
-* Know what you want to say. Plan what you want to say. Write an outline. 
+* Know what you want to say. Plan what you want to say. Write an outline.
 * Know your audience. (WISDOM acrostic)
   * What they **Want**?
   * What is their **Interest**?
@@ -166,7 +166,7 @@ You need to ensure that the knowledge in your portfolio is accurate and unswayed
 * Choose your moment:  Understanding when your audience needs to hear your information.
 * Choose a style:  Just the facts, large bound reports, a simple memo.
 * Make it look good: Add good-looking vehicle to your important ideas and engage your audience.
-* Involve your audience:  Get their feedback, and pick their brains. 
+* Involve your audience:  Get their feedback, and pick their brains.
 * Be a listener: Encourage people to talk by asking questions.
 * Get back to people: Keep people informed afterwards.
 **Tip 10: It's Both What You Say and the Way You Say It**
@@ -174,8 +174,8 @@ You need to ensure that the knowledge in your portfolio is accurate and unswayed
 # Chapter 2. A Pragmatic Approach
 
 ## 7.-The Evils of Duplication
-The problem arises when you need to change a representation of things that are across all the code base.       
-Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.   
+The problem arises when you need to change a representation of things that are across all the code base.
+Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
 
 **Tip 11: DRY—Don't Repeat Yourself**
 
@@ -191,7 +191,7 @@ Types of duplication:
 ## 8.-Orthogonality
 
 Two or more things are orthogonal if changes in one do not affect any of the others. Also called *cohesion*.
-Write "shy" code.   
+Write "shy" code.
 
 **Tip 13: Eliminate Effects Between Unrelated Things**
 
@@ -205,7 +205,7 @@ Benefits:
 	* Diseased sections or code are isolated
 	* Are better tested
 	* Not tied to a product or platform
-* Project Teams: Functionality is divided 
+* Project Teams: Functionality is divided
 * Design: Easier to design a complete project through its components
 * Toolkits and Libraries: Choose wisely to keep orthogonality
 * Coding: In order to keep orthogonality when adding code do:
@@ -221,7 +221,7 @@ Be prepared for changes.
 **Tip 14: There are no Final Decisions.**
 
 ## 10-Tracer Bullets
-In new projects your users requirements may be vague. Use of new algorithms, techniques, languages, or libraries unknowns will come. And environment will change over time before you are done.   
+In new projects your users requirements may be vague. Use of new algorithms, techniques, languages, or libraries unknowns will come. And environment will change over time before you are done.
 We're looking for something that gets us from a requirement to some aspect of the final system quickly, visibly, and repeatably.
 
 **Tip 15: Use Tracer Bullets to Find the Target**
@@ -239,21 +239,21 @@ Tracer bullets show what you're hitting. This may not always be the target. You 
 
 
 ###  Tracer Code versus Prototyping
-With a prototype, you're aiming to explore specific aspects of the final system.    
-Tracer code is used to know how the application as a whole hangs together.   
+With a prototype, you're aiming to explore specific aspects of the final system.
+Tracer code is used to know how the application as a whole hangs together.
 
-Prototyping generates disposable code.   
+Prototyping generates disposable code.
 Tracer code is lean but complete, and forms part of the skeleton of the final system.
 
 ## 11.-Prototypes and Post-it Notes
-We build software prototypes to analyze and expose risk, and to offer chances for correction at a greatly reduced cost.   
+We build software prototypes to analyze and expose risk, and to offer chances for correction at a greatly reduced cost.
 
-Prototype anything that: 
+Prototype anything that:
 
 * carries risk
 * hasn't been tried before
 * is absolutely critical to the final system
-* is unproven 
+* is unproven
 * is experimental
 * is doubtful
 
@@ -264,7 +264,7 @@ Samples:
 * Structure or contents of external data
 * Third-party tools or components
 * Performance issues
-* User interface design   
+* User interface design
 
 
 **Tip 16: Prototype to Learn**
@@ -319,7 +319,7 @@ Ask someone who's been in a similar situation in the past.
 
 ### Estimating Project Schedules
 The only way to determine the timetable for a project is by gaining experience on that same project.
-Practice incremental development, repeating the following steps: 
+Practice incremental development, repeating the following steps:
 
 * Guess estimation
 * Check requirements
@@ -376,24 +376,24 @@ Can't you do everything equally well by pointing and clicking in a GUI?
 ## 17.-Source Code Control
 **Tip 23: Always Use Source Code Control**
 
-## 18.-Debugging 
-**Tip 24: Fix the Problem, Not the Blame**   
+## 18.-Debugging
+**Tip 24: Fix the Problem, Not the Blame**
 **Tip 25: Don't Panic**
 
 ### A Debugging Mindset
-Don't waste a single neuron on the train of thought that begins "but that can't happen" because quite clearly it can, and has.  
-Try to discover the root cause of a problem, not just this particular appearance of it.  
+Don't waste a single neuron on the train of thought that begins "but that can't happen" because quite clearly it can, and has.
+Try to discover the root cause of a problem, not just this particular appearance of it.
 
 ### Where to Start
-* Before you start, check the warnings or better remove all of them.  
+* Before you start, check the warnings or better remove all of them.
 * You first need to be accurate in your observations and data.
 
 ### Debugging Strategies
 #### Bug Reproduction
 * The best way to start fixing a bug is to make it reproducible.
-* The second best way is to make it reproducible with a _single command_.  
+* The second best way is to make it reproducible with a _single command_.
 
-#### Visualize Your Data 
+#### Visualize Your Data
 Use the tools that the debugger offers you. Pen and paper can also help.
 #### Tracing
 Now what happens before and after.
@@ -429,12 +429,12 @@ You can use code generators to write just about any output: HTML, XML, plain tex
 else in your project.
 # Chapter 4. A Pragmatic Paranoia
 **Tip 30: You can't write Perfect Software**
-No one in the brief history of computing has ever written a piece of perfect software.  
-Pragmatic Programmers don't trust themselves, either.  
+No one in the brief history of computing has ever written a piece of perfect software.
+Pragmatic Programmers don't trust themselves, either.
 
 ## 21.-Design by Contract
 A correct program is one that does no more and no less than it claims to do.
-Use: 
+Use:
 
 * Preconditions
 * Postconditions
@@ -471,10 +471,10 @@ When your code discovers that something that was supposed to be impossible just 
 program is no longer viable.
 
 ## 23.-Assertive Programming
-**Tip 33: If It Can't Happen, Use Assertions to Ensure That It Won't**   
+**Tip 33: If It Can't Happen, Use Assertions to Ensure That It Won't**
 
-* Assertions are also useful checks on an algorithm's operation.   
-* Don't use assertions in place of real error handling.   
+* Assertions are also useful checks on an algorithm's operation.
+* Don't use assertions in place of real error handling.
 * Leave Assertions Turned On, unless you have critical performance issues.
 
 ## 24.-When to Use Exceptions
@@ -504,11 +504,11 @@ Be careful about how many other modules you interact with and how you came to in
 
 Traversing relationships between objects directly can quickly lead to a combinatorial explosion.
 ```java
-	
+
 	book.pages().last().text().
-	
+
 	// Instead, we're supposed to go with:
-	
+
 	book.textOfLastPage()
 ```
 Symptoms:
@@ -535,12 +535,12 @@ The Law of Demeter for functions states that  any method of an object should cal
 **Tip 36: Minimize Coupling Between Modules**
 
 ### Does It Really Make a Difference?
-Using The Law of Demeter will make your code more adaptable and robust, but at a cost:   
-you will be writing a large number of wrapper methods that simply forward the request on to a delegate. imposing both a runtime cost and a space overhead.  
+Using The Law of Demeter will make your code more adaptable and robust, but at a cost:
+you will be writing a large number of wrapper methods that simply forward the request on to a delegate. imposing both a runtime cost and a space overhead.
 Balance the pros and cons for your particular application.
 
 ## 27.-Metaprogramming
-"Out with the details!" Get them out of the code. While we're at it, we can make our code highly configurable and "soft"—that is, easily adaptable to changes.   
+"Out with the details!" Get them out of the code. While we're at it, we can make our code highly configurable and "soft"—that is, easily adaptable to changes.
 ### Dynamic Configuration
 **Tip 37: Configure, Don't Integrate**
 ### Metadata-Driven Applications
@@ -557,19 +557,19 @@ Benefits:
 * You may even be able to implement several different projects using the same application engine, but with different metadata.
 
 ### When to Configure
-A flexible approach is to write programs that can reload their configuration while they're running. 
+A flexible approach is to write programs that can reload their configuration while they're running.
 
 * long-running server process:  provide some way to reread and apply metadata while the program is running.
 * small client GUI application: if restarts quickly no problem.
 
 ## 28.- Temporal Coupling
-Two aspects of time:  
+Two aspects of time:
 
 * Concurrency: things happening at the same time
 * Ordering: the relative positions of things in time
 
-We need to allow for concurrency and to think about decoupling any time or order dependencies.  
-Reduce any time-based dependencies  
+We need to allow for concurrency and to think about decoupling any time or order dependencies.
+Reduce any time-based dependencies
 
 ### Workflow
 
@@ -580,7 +580,7 @@ Use [activity diagrams](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e
 ### Architecture
 Balance load among multiple consumer processes: **the hungry consumer model.**
 
-In a hungry consumer model, you replace the central scheduler with a number of independent consumer tasks and a centralized work queue. Each consumer task grabs a piece from the work queue and goes on about the business of processing it. As each task finishes its work, it goes back to the queue for some more. This way, if any particular task gets bogged down, the others can pick up the slack, and each individual component can proceed at its own pace. Each component is temporally decoupled from the others.  
+In a hungry consumer model, you replace the central scheduler with a number of independent consumer tasks and a centralized work queue. Each consumer task grabs a piece from the work queue and goes on about the business of processing it. As each task finishes its work, it goes back to the queue for some more. This way, if any particular task gets bogged down, the others can pick up the slack, and each individual component can proceed at its own pace. Each component is temporally decoupled from the others.
 
 **Tip 40: Design Using Services**
 
@@ -598,9 +598,9 @@ Thinking about concurrency and time-ordered dependencies can lead you to design 
 **Tip 41: Always Design for Concurrency**
 
 ### Deployment
-You can be flexible as to how the application is deployed: standalone, client-server, or n-tier.    
+You can be flexible as to how the application is deployed: standalone, client-server, or n-tier.
 
-If we design to allow for concurrency, we can more easily meet scalability or performance requirements when the time comes—and if the time never comes, we still have the benefit of a cleaner design.  
+If we design to allow for concurrency, we can more easily meet scalability or performance requirements when the time comes—and if the time never comes, we still have the benefit of a cleaner design.
 
 ## 29.-It's Just a View
 ### Publish/Subscribe
@@ -631,7 +631,7 @@ A blackboard system lets us decouple our objects from each other completely, pro
 ### Blackboard Implementations
 With Blackboard systems, you can store active objects—not just data—on the blackboard, and retrieve them by partial matching of fields (via templates and wildcards) or by subtypes.
 
-Functions that a Blackboard system should have: 
+Functions that a Blackboard system should have:
 
 * **read** Search for and retrieve data from the space.
 * **write** Put an item into the space.
@@ -649,7 +649,7 @@ We should avoid programming by coincidence—relying on luck and accidental succ
 
 ### How to Program Deliberately
 * Always be aware of what you are doing.
-* Don't code blindfolded. 
+* Don't code blindfolded.
 * Proceed from a plan.
 * Rely only on reliable things.
 * Document your assumptions. [Design by Contract](#21-design-by-contract).
@@ -658,7 +658,7 @@ We should avoid programming by coincidence—relying on luck and accidental succ
 * Don't be a slave to history. Don't let existing code dictate future code. [Refactoring](#33-refactoring)
 
 ## 32.-Algorithm Speed
-Pragmatic Programmers estimate the resources that algorithms use—time, processor, memory, and so on.   
+Pragmatic Programmers estimate the resources that algorithms use—time, processor, memory, and so on.
 
 ### Use: Big O Notation
 * **O(1)**: Constant (access element in array, simple statements)
@@ -676,7 +676,7 @@ Pragmatic Programmers estimate the resources that algorithms use—time, process
 	   lo = 1, hi = size(list)
 	   while (lo <= hi){
 	      mid = lo + (hi-lo)/2
-	      if (list[mid] == target) return mid            
+	      if (list[mid] == target) return mid
 	      else if (list[mid] < target) lo = mid+1
 	      else hi = mid-1
 	   }
@@ -743,18 +743,18 @@ Pragmatic Programmers estimate the resources that algorithms use—time, process
 **Tip 46: Test Your Estimates**
 
 ### Best Isn't Always Best
-Be pragmatic about choosing appropriate algorithms—the fastest one is not always the best for the job.    
+Be pragmatic about choosing appropriate algorithms—the fastest one is not always the best for the job.
 
 Be wary of premature optimization. Make sure an algorithm really is a bottleneck before investing time improving it.
 
 ## 33.-Refactoring
 Code needs to evolve; it's not a static thing.
 
-### When Should You Refactor?	
+### When Should You Refactor?
 * Duplication. You've discovered a violation of the DRY principle ([The Evils of Duplication](#7-the-evils-of-duplication)).
 * Nonorthogonal design. You've discovered some code or design that could be made more orthogonal ([Orthogonality](#8-orthogonality)).
 * Outdated knowledge. Things change, requirements drift, and your knowledge of the problem increases. Code needs to keep up.
-* Performance. You need to move functionality from one area of the system to another to improve performance.	
+* Performance. You need to move functionality from one area of the system to another to improve performance.
 
 **Tip 47: Refactor Early, Refactor Often**
 
@@ -767,7 +767,7 @@ Code needs to evolve; it's not a static thing.
 Build testability into the software from the very beginning, and test each piece thoroughly before trying to wire them together.
 
 ### Unit Testing
-Testing done on each module, in isolation, to verify its behavior.   
+Testing done on each module, in isolation, to verify its behavior.
 A software unit test is code that exercises a module.
 
 ### Testing Against Contract
@@ -778,11 +778,11 @@ This will tell us two things:
 
 **Tip 48: Design to Test**
 
-There's no better way to fix errors than by avoiding them in the first place.   
-Build the tests before you implement the code. 
+There's no better way to fix errors than by avoiding them in the first place.
+Build the tests before you implement the code.
 
 ### Writing Unit Tests
-By making the test code readily accessible, you are providing developers who may use your code with two invaluable resources: 
+By making the test code readily accessible, you are providing developers who may use your code with two invaluable resources:
 
 1. Examples of how to use all the functionality of your module
 2. A means to build regression tests to validate any future changes to the code
@@ -820,7 +820,7 @@ _Perfection is achieved, not when there is nothing left to add, but when there i
 **Tip 51: Don't Gather Requirements—Dig for Them**
 
 ### Digging for Requirements
-Policy may end up as metadata in the application.   
+Policy may end up as metadata in the application.
 
 Gathering requirements in this way naturally leads you to a system that is well factored to support metadata.
 
@@ -872,7 +872,7 @@ Start prototyping. Choose an area that you feel will be difficult and begin prod
 why you're doing it and that it is a prototype.
 
 ## 39.-The Specification Trap
-Writing a specification is quite a responsibility. 
+Writing a specification is quite a responsibility.
 
 You should know when to stop:
 
@@ -958,7 +958,7 @@ A build is a procedure that takes an empty directory (and a known compilation en
 
 * 1. Check out the source code from the repository
 * 2. Build the project from scratch (marked with the version number).
-* 3. Create a distributable image 
+* 3. Create a distributable image
 * 4. Run specified tests
 
 When you don't run tests regularly, you may discover that the application broke due to a code change made three months ago. Good luck finding that one.
@@ -1004,15 +1004,15 @@ The earlier a bug is found, the cheaper it is to remedy. "Code a little, test a 
 * Exercising GUI systems: requires specialized testing tools, based on a simple event capture/playback model.
 * Testing the tests: After you have written a test to detect a particular bug, cause the bug deliberately and make sure the test complains.
 	**Tip 64: Use Saboteurs to Test Your Testing**
-* Testing thoroughly: 
+* Testing thoroughly:
 	**Tip 65: Test State Coverage, Not Code Coverage**
 
 #### 3.-When to Test
-As soon as any production code exists, it needs to be tested.   
+As soon as any production code exists, it needs to be tested.
 Most testing should be done automatically.
 
 ### Tightening the Net
-If a bug slips through the net of existing tests, you need to add a new test to trap it next time.  
+If a bug slips through the net of existing tests, you need to add a new test to trap it next time.
 **Tip 66: Find Bugs Once**
 
 ## 44.-It's All Writing
@@ -1050,14 +1050,14 @@ Using a markup system, you have the flexibility to implement as many different o
 Documentation and code are different views of the same underlying model, but the view is all that should be different.
 
 ##  45.-Great Expectations
-The success of a project is measured by how well it meets the expectations of its users.	
+The success of a project is measured by how well it meets the expectations of its users.
 
 **Tip 69: Gently Exceed Your Users' Expectations**
 
 ### Communicating Expectations
 Users initially come to you with some vision of what they want. You cannot just ignore it.
 
-Everyone should understand what's expected and how it will be built.  
+Everyone should understand what's expected and how it will be built.
 
 ### The Extra Mile
 Give users that little bit more than they were expecting.
@@ -1082,304 +1082,308 @@ We want to see pride of ownership. "I wrote this, and I stand behind my work."
 
 # Quick Reference
 ## Tips
-**Tip 1: Care About Your Craft**  
-Why spend your life developing software unless you care about doing it well? 
+**Tip 1: Care About Your Craft**
+Why spend your life developing software unless you care about doing it well?
 
-**Tip 2: Think! About Your Work**  
-Turn off the autopilot and take control. Constantly critique and appraise your work. 
+**Tip 2: Think! About Your Work**
+Turn off the autopilot and take control. Constantly critique and appraise your work.
 
-**Tip 3: Provide Options, Don't Make Lame Excuses**  
-Instead of excuses, provide options. Don't say it can't be done; explain what can be done. 
+**Tip 3: Provide Options, Don't Make Lame Excuses**
+Instead of excuses, provide options. Don't say it can't be done; explain what can be done.
 
-**Tip 4: Don't Live with Broken Windows**  
-Fix bad designs, wrong decisions, and poor code when you see them. 
+**Tip 4: Don't Live with Broken Windows**
+Fix bad designs, wrong decisions, and poor code when you see them.
 
-**Tip 5: Be a Catalyst for Change**  
-You can't force change on people. Instead, show them how the future might be and help them participate in creating it. 
+**Tip 5: Be a Catalyst for Change**
+You can't force change on people. Instead, show them how the future might be and help them participate in creating it.
 
-**Tip 6: Remember the Big Picture**  
-Don't get so engrossed in the details that you forget to check what's happening around you. 
+**Tip 6: Remember the Big Picture**
+Don't get so engrossed in the details that you forget to check what's happening around you.
 
-**Tip 7: Make Quality a Requirements Issue**  
-Involve your users in determining the project's real quality requirements. 
+**Tip 7: Make Quality a Requirements Issue**
+Involve your users in determining the project's real quality requirements.
 
-**Tip 8: Invest Regularly in Your Knowledge Portfolio**  
-Make learning a habit. 
+**Tip 8: Invest Regularly in Your Knowledge Portfolio**
+Make learning a habit.
 
-**Tip 9: Critically Analyze What You Read and Hear**  
-Don't be swayed by vendors, media hype, or dogma. Analyze information in terms of you and your project. 
+**Tip 9: Critically Analyze What You Read and Hear**
+Don't be swayed by vendors, media hype, or dogma. Analyze information in terms of you and your project.
 
-**Tip 10: It's Both What You Say and the Way You Say It**  
-There's no point in having great ideas if you don't communicate them effectively. 
+**Tip 10: It's Both What You Say and the Way You Say It**
+There's no point in having great ideas if you don't communicate them effectively.
 
-**Tip 11: DRY – Don't Repeat Yourself**  
-Every piece of knowledge must have a single, unambiguous, authoritative representation within a system. 
+**Tip 11: DRY – Don't Repeat Yourself**
+Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
 
-**Tip 12: Make It Easy to Reuse**  
-If it's easy to reuse, people will. Create an environment that supports reuse. 
+**Tip 12: Make It Easy to Reuse**
+If it's easy to reuse, people will. Create an environment that supports reuse.
 
-**Tip 13: Eliminate Effects Between Unrelated Things**  
-Design components that are self-contained, independent, and have a single, well-defined purpose. 
+**Tip 13: Eliminate Effects Between Unrelated Things**
+Design components that are self-contained, independent, and have a single, well-defined purpose.
 
-**Tip 14: There Are No Final Decisions**  
-No decision is cast in stone. Instead, consider each as being written in the sand at the beach, and plan for change. 
+**Tip 14: There Are No Final Decisions**
+No decision is cast in stone. Instead, consider each as being written in the sand at the beach, and plan for change.
 
-**Tip 15: Use Tracer Bullets to Find the Target**  
-Tracer bullets let you home in on your target by trying things and seeing how close they land. 
+**Tip 15: Use Tracer Bullets to Find the Target**
+Tracer bullets let you home in on your target by trying things and seeing how close they land.
 
-**Tip 12: Prototype to Learn**  
-Prototyping is a learning experience. Its value lies not in the code you produce, but in the lessons you learn. 
+**Tip 12: Prototype to Learn**
+Prototyping is a learning experience. Its value lies not in the code you produce, but in the lessons you learn.
 
-**Tip 17: Program Close to the Problem Domain**  
-Design and code in your user's language. 
+**Tip 17: Program Close to the Problem Domain**
+Design and code in your user's language.
 
-**Tip 18: Estimate to Avoid Surprises**  
-Estimate before you start. You'll spot potential problems up front. 
+**Tip 18: Estimate to Avoid Surprises**
+Estimate before you start. You'll spot potential problems up front.
 
-**Tip 19: Iterate the Schedule with the Code**  
-Use experience you gain as you implement to refine the project time scales. 
+**Tip 19: Iterate the Schedule with the Code**
+Use experience you gain as you implement to refine the project time scales.
 
-**Tip 20: Keep Knowledge in Plain Text**  
-Plain text won't become obsolete. It helps leverage your work and simplifies debugging and testing. 
+**Tip 20: Keep Knowledge in Plain Text**
+Plain text won't become obsolete. It helps leverage your work and simplifies debugging and testing.
 
-**Tip 21: Use the Power of Command Shells**  
-Use the shell when graphical user interfaces don't cut it. 
+**Tip 21: Use the Power of Command Shells**
+Use the shell when graphical user interfaces don't cut it.
 
-**Tip 22: Use a Single Editor Well**  
-The editor should be an extension of your hand; make sure your editor is configurable, extensible, and programmable. 
+**Tip 22: Use a Single Editor Well**
+The editor should be an extension of your hand; make sure your editor is configurable, extensible, and programmable.
 
-**Tip 23: Always Use Source Code Control**  
-Source code control is a time machine for your work – you can go back. 
+**Tip 23: Always Use Source Code Control**
+Source code control is a time machine for your work – you can go back.
 
-**Tip 24: Fix the Problem, Not the Blame**  
-It doesn't really matter whether the bug is your fault or someone else's – it is still your problem, and it still needs to be fixed. 
+**Tip 24: Fix the Problem, Not the Blame**
+It doesn't really matter whether the bug is your fault or someone else's – it is still your problem, and it still needs to be fixed.
 
-**Tip 25: Don't Panic When Debugging**  
-Take a deep breath and THINK! about what could be causing the bug. 
+**Tip 25: Don't Panic When Debugging**
+Take a deep breath and THINK! about what could be causing the bug.
 
-**Tip 26: "select" Isn't Broken.**  
-It is rare to find a bug in the OS or the compiler, or even a third-party product or library. The bug is most likely in the application. 
+**Tip 26: "select" Isn't Broken.**
+It is rare to find a bug in the OS or the compiler, or even a third-party product or library. The bug is most likely in the application.
 
-**Tip 27: Don't Assume It – Prove It**  
-Prove your assumptions in the actual environment – with real data and boundary conditions. 
+**Tip 27: Don't Assume It – Prove It**
+Prove your assumptions in the actual environment – with real data and boundary conditions.
 
-**Tip 28: Learn a Text Manipulation Language.**  
-You spend a large part of each day working with text. Why not have the computer do some of it for you? 
+**Tip 28: Learn a Text Manipulation Language.**
+You spend a large part of each day working with text. Why not have the computer do some of it for you?
 
-**Tip 29: Write Code That Writes Code**  
-Code generators increase your productivity and help avoid duplication. 
+**Tip 29: Write Code That Writes Code**
+Code generators increase your productivity and help avoid duplication.
 
-**Tip 30: You Can't Write Perfect Software**  
-Software can't be perfect. Protect your code and users from the inevitable errors. 
+**Tip 30: You Can't Write Perfect Software**
+Software can't be perfect. Protect your code and users from the inevitable errors.
 
-**Tip 31: Design with Contracts**  
-Use contracts to document and verify that code does no more and no less than it claims to do. 
+**Tip 31: Design with Contracts**
+Use contracts to document and verify that code does no more and no less than it claims to do.
 
-**Tip 32: Crash Early**  
-A dead program normally does a lot less damage than a crippled one. 
+**Tip 32: Crash Early**
+A dead program normally does a lot less damage than a crippled one.
 
-**Tip 33: Use Assertions to Prevent the Impossible**  
-Assertions validate your assumptions. Use them to protect your code from an uncertain world. 
+**Tip 33: Use Assertions to Prevent the Impossible**
+Assertions validate your assumptions. Use them to protect your code from an uncertain world.
 
-**Tip 34: Use Exceptions for Exceptional Problems**  
-Exceptions can suffer from all the readability and maintainability problems of classic spaghetti code. Reserve exceptions for exceptional things. 
+**Tip 34: Use Exceptions for Exceptional Problems**
+Exceptions can suffer from all the readability and maintainability problems of classic spaghetti code. Reserve exceptions for exceptional things.
 
-**Tip 35: Finish What You Start**  
-Where possible, the routine or object that allocates a resource should be responsible for deallocating it. 
+**Tip 35: Finish What You Start**
+Where possible, the routine or object that allocates a resource should be responsible for deallocating it.
 
-**Tip 36: Minimize Coupling Between Modules**  
-Avoid coupling by writing "shy" code and applying the Law of Demeter. 
+**Tip 36: Minimize Coupling Between Modules**
+Avoid coupling by writing "shy" code and applying the Law of Demeter.
 
-**Tip 37: Configure, Don't Integrate**  
-Implement technology choices for an application as configuration options, not through integration or engineering. 
+**Tip 37: Configure, Don't Integrate**
+Implement technology choices for an application as configuration options, not through integration or engineering.
 
-**Tip 38: Put Abstractions in Code, Details in Metadata**  
-Program for the general case, and put the specifics outside the compiled code base. 
+**Tip 38: Put Abstractions in Code, Details in Metadata**
+Program for the general case, and put the specifics outside the compiled code base.
 
-**Tip 39: Analyze Workflow to Improve Concurrency**  
-Exploit concurrency in your user's workflow. 
+**Tip 39: Analyze Workflow to Improve Concurrency**
+Exploit concurrency in your user's workflow.
 
-**Tip 40: Design Using Services**  
-Design in terms of services – independent, concurrent objects behind well-defined, consistent interfaces. 
+**Tip 40: Design Using Services**
+Design in terms of services – independent, concurrent objects behind well-defined, consistent interfaces.
 
-**Tip 41: Always Design for Concurrency**  
-Allow for concurrency, and you'll design cleaner interfaces with fewer assumptions. 
+**Tip 41: Always Design for Concurrency**
+Allow for concurrency, and you'll design cleaner interfaces with fewer assumptions.
 
-**Tip 42: Separate Views from Models**  
-Gain flexibility at low cost by designing your application in terms of models and views. 
+**Tip 42: Separate Views from Models**
+Gain flexibility at low cost by designing your application in terms of models and views.
 
-**Tip 43: Use Blackboards to Coordinate Workflow**  
-Use blackboards to coordinate disparate facts and agents, while maintaining independence and isolation among participants. 
+**Tip 43: Use Blackboards to Coordinate Workflow**
+Use blackboards to coordinate disparate facts and agents, while maintaining independence and isolation among participants.
 
-**Tip 44: Don't Program by Coincidence**  
-Rely only on reliable things. Beware of accidental complexity, and don't confuse a happy coincidence with a purposeful plan. 
+**Tip 44: Don't Program by Coincidence**
+Rely only on reliable things. Beware of accidental complexity, and don't confuse a happy coincidence with a purposeful plan.
 
-**Tip 45: Estimate the Order of Your Algorithms**  
-Get a feel for how long things are likely to take before you write code. 
+**Tip 45: Estimate the Order of Your Algorithms**
+Get a feel for how long things are likely to take before you write code.
 
-**Tip 46: Test Your Estimates**  
-Mathematical analysis of algorithms doesn't tell you everything. Try timing your code in its target environment. 
+**Tip 46: Test Your Estimates**
+Mathematical analysis of algorithms doesn't tell you everything. Try timing your code in its target environment.
 
-**Tip 47: Refactor Early, Refactor Often**  
-Just as you might weed and rearrange a garden, rewrite, rework, and re-architect code when it needs it. Fix the root of the problem. 
+**Tip 47: Refactor Early, Refactor Often**
+Just as you might weed and rearrange a garden, rewrite, rework, and re-architect code when it needs it. Fix the root of the problem.
 
-**Tip 48: Design to Test**  
-Start thinking about testing before you write a line of code. 
+**Tip 48: Design to Test**
+Start thinking about testing before you write a line of code.
 
-**Tip 49: Test Your Software, or Your Users Will**  
-Test ruthlessly. Don't make your users find bugs for you. 
+**Tip 49: Test Your Software, or Your Users Will**
+Test ruthlessly. Don't make your users find bugs for you.
 
-**Tip 50: Don't Use Wizard Code You Don't Understand**  
-Wizards can generate reams of code. Make sure you understand all of it before you incorporate it into your project. 
+**Tip 50: Don't Use Wizard Code You Don't Understand**
+Wizards can generate reams of code. Make sure you understand all of it before you incorporate it into your project.
 
-**Tip 51: Don't Gather Requirements – Dig for Them**  
-Requirements rarely lie on the surface. They're buried deep beneath layers of assumptions, misconceptions, and politics. 
+**Tip 51: Don't Gather Requirements – Dig for Them**
+Requirements rarely lie on the surface. They're buried deep beneath layers of assumptions, misconceptions, and politics.
 
-**Tip 52: Work With a User to Think Like a User**  
-It's the best way to gain insight into how the system will really be used. 
+**Tip 52: Work With a User to Think Like a User**
+It's the best way to gain insight into how the system will really be used.
 
-**Tip 53: Abstractions Live Longer than Details**  
-Invest in the abstraction, not the implementation. Abstractions can survive the barrage of changes from different implementations and new technologies. 
+**Tip 53: Abstractions Live Longer than Details**
+Invest in the abstraction, not the implementation. Abstractions can survive the barrage of changes from different implementations and new technologies.
 
-**Tip 54: Use a Project Glossary**  
-Create and maintain a single source of all the specific terms and vocabulary for a project. 
+**Tip 54: Use a Project Glossary**
+Create and maintain a single source of all the specific terms and vocabulary for a project.
 
-**Tip 55: Don't Think Outside the Box – Find the Box**  
-When faced with an impossible problem, identify the real constraints. Ask yourself: "Does it have to be done this way? Does it have to be done at all?" 
+**Tip 55: Don't Think Outside the Box – Find the Box**
+When faced with an impossible problem, identify the real constraints. Ask yourself: "Does it have to be done this way? Does it have to be done at all?"
 
-**Tip 56: Start When You're Ready.**  
-You've been building experience all your life. Don't ignore niggling doubts. 
+**Tip 56: Start When You're Ready.**
+You've been building experience all your life. Don't ignore niggling doubts.
 
-**Tip 57: Some Things Are Better Done than Described**  
-Don't fall into the specification spiral – at some point you need to start coding. 
+**Tip 57: Some Things Are Better Done than Described**
+Don't fall into the specification spiral – at some point you need to start coding.
 
-**Tip 58: Don't Be a Slave to Formal Methods.**  
-Don't blindly adopt any technique without putting it into the context of your development practices and capabilities. 
+**Tip 58: Don't Be a Slave to Formal Methods.**
+Don't blindly adopt any technique without putting it into the context of your development practices and capabilities.
 
-**Tip 59: Costly Tools Don't Produce Better Designs**  
-Beware of vendor hype, industry dogma, and the aura of the price tag. Judge tools on their merits. 
+**Tip 59: Costly Tools Don't Produce Better Designs**
+Beware of vendor hype, industry dogma, and the aura of the price tag. Judge tools on their merits.
 
-**Tip 60: Organize Teams Around Functionality**  
-Don't separate designers from coders, testers from data modelers. Build teams the way you build code. 
+**Tip 60: Organize Teams Around Functionality**
+Don't separate designers from coders, testers from data modelers. Build teams the way you build code.
 
-**Tip 61: Don't Use Manual Procedures**  
-A shell script or batch file will execute the same instructions, in the same order, time after time. 
+**Tip 61: Don't Use Manual Procedures**
+A shell script or batch file will execute the same instructions, in the same order, time after time.
 
-**Tip 62: Test Early. Test Often. Test Automatically**  
-Tests that run with every build are much more effective than test plans that sit on a shelf. 
+**Tip 62: Test Early. Test Often. Test Automatically**
+Tests that run with every build are much more effective than test plans that sit on a shelf.
 
-**Tip 63: Coding Ain't Done 'Til All the Tests Run**  
-'Nuff said. 
+**Tip 63: Coding Ain't Done 'Til All the Tests Run**
+'Nuff said.
 
-**Tip 64: Use Saboteurs to Test Your Testing**  
-Introduce bugs on purpose in a separate copy of the source to verify that testing will catch them. 
+**Tip 64: Use Saboteurs to Test Your Testing**
+Introduce bugs on purpose in a separate copy of the source to verify that testing will catch them.
 
-**Tip 65: Test State Coverage, Not Code Coverage**  
-Identify and test significant program states. Just testing lines of code isn't enough. 
+**Tip 65: Test State Coverage, Not Code Coverage**
+Identify and test significant program states. Just testing lines of code isn't enough.
 
-**Tip 66: Find Bugs Once**  
-Once a human tester finds a bug, it should be the last time a human tester finds that bug. Automatic tests should check for it from then on. 
+**Tip 66: Find Bugs Once**
+Once a human tester finds a bug, it should be the last time a human tester finds that bug. Automatic tests should check for it from then on.
 
-**Tip 67: English is Just a Programming Language**  
-Write documents as you would write code: honor the DRY principle, use metadata, MVC, automatic generation, and so on. 
+**Tip 67: English is Just a Programming Language**
+Write documents as you would write code: honor the DRY principle, use metadata, MVC, automatic generation, and so on.
 
-**Tip 68: Build Documentation In, Don't Bolt It On**  
-Documentation created separately from code is less likely to be correct and up to date. 
+**Tip 68: Build Documentation In, Don't Bolt It On**
+Documentation created separately from code is less likely to be correct and up to date.
 
-**Tip 69: Gently Exceed Your Users' Expectations**  
-Come to understand your users' expectations, then deliver just that little bit more. 
+**Tip 69: Gently Exceed Your Users' Expectations**
+Come to understand your users' expectations, then deliver just that little bit more.
 
-**Tip 70: Sign Your Work**  
-Craftsmen of an earlier age were proud to sign their work. You should be, too. 
+**Tip 70: Sign Your Work**
+Craftsmen of an earlier age were proud to sign their work. You should be, too.
 
 ## CheckList
 
 ### Languages To Learn
-Tired of C, C++, and Java? Try CLOS, Dylan, Eiffel, Objective C, Prolog, Smalltalk, or TOM. Each of these languages has different capabilities and a different "flavor." Try a small project at home using one or more of them.
+Tired of C, C++, and Java? Try the following languages. Each of these languages has different capabilities and a different "flavor." Try a small project at home using one or more of them.
+-[ ] CLOS
+-[ ] Dylan
+-[ ] Eiffel
+-[ ] Objective C
+-[ ] Prolog
+-[ ] Smalltalk
+-[ ] TOM
+
 ### The WISDOM Acrostic
-**W**hat do you want them to learn?
+-[ ] **W**hat do you want them to learn?
+-[ ] What **i**s their interest in what you've got to say?
+-[ ] How **s**ophisticated are they?
+-[ ] How much **d**etail do they want?
+-[ ] Whom do you want to **o**wn the information?
+-[ ] How can you **m**otivate them to listen to you?
 
-What **i**s their interest in what you've got to say?
-
-How **s**ophisticated are they?
-
-How much **d**etail do they want?
-
-Whom do you want to **o**wn the information?
-
-How can you **m**otivate them to listen to you?
 ### How to Maintain Orthogonality
-* Design independent, well-defined components. 
-* Keep your code decoupled. 
-* Avoid global data. 
-* Refactor similar functions. 
+-[ ] Design independent, well-defined components.
+-[ ] Keep your code decoupled.
+-[ ] Avoid global data.
+-[ ] Refactor similar functions.
 
 ### Things to prototype
-* Architecture 
-* New functionality in an existing system 
-* Structure or contents of external data 
-* Third-party tools or components 
-* Performance issues 
-* User interface design 
+-[ ] Architecture
+-[ ] New functionality in an existing system
+-[ ] Structure or contents of external data
+-[ ] Third-party tools or components
+-[ ] Performance issues
+-[ ] User interface design
 
 ### Architectural Questions
-* Are responsibilities well defined? 
-* Are the collaborations well defined? 
-* Is coupling minimized? 
-* Can you identify potential duplication? 
-* Are interface definitions and constraints acceptable? 
-* Can modules access needed data – when needed? 
+-[ ] Are responsibilities well defined?
+-[ ] Are the collaborations well defined?
+-[ ] Is coupling minimized?
+-[ ] Can you identify potential duplication?
+-[ ] Are interface definitions and constraints acceptable?
+-[ ] Can modules access needed data – when needed?
 
 ### Debugging Checklist
-* Is the problem being reported a direct result of the underlying bug, or merely a symptom? 
-* Is the bug really in the compiler? Is it in the OS? Or is it in your code? 
-* If you explained this problem in detail to a coworker, what would you say? 
-* If the suspect code passes its unit tests, are the tests complete enough? What happens if you run the unit test with this data? 
-* Do the conditions that caused this bug exist anywhere else in the system? 
+-[ ] Is the problem being reported a direct result of the underlying bug, or merely a symptom?
+-[ ] Is the bug really in the compiler? Is it in the OS? Or is it in your code?
+-[ ] If you explained this problem in detail to a coworker, what would you say?
+-[ ] If the suspect code passes its unit tests, are the tests complete enough? What happens if you run the unit test with this data?
+-[ ] Do the conditions that caused this bug exist anywhere else in the system?
 
 ### Law of Demeter for Functions
 An object's method should call only methods belonging to:
 
-* Itself 
-* Any parameters passed in 
-* Objects it creates 
-* Component objects 
+-[ ] Itself
+-[ ] Any parameters passed in
+-[ ] Objects it creates
+-[ ] Component objects
 
 ### How to Program Deliberately
-* Stay aware of what you're doing. 
-* Don't code blindfolded. 
-* Proceed from a plan. 
-* Rely only on reliable things. 
-* Document your assumptions. 
-* Test assumptions as well as code. 
-* Prioritize your effort. 
-* Don't be a slave to history. 
+-[ ] Stay aware of what you're doing.
+-[ ] Don't code blindfolded.
+-[ ] Proceed from a plan.
+-[ ] Rely only on reliable things.
+-[ ] Document your assumptions.
+-[ ] Test assumptions as well as code.
+-[ ] Prioritize your effort.
+-[ ] Don't be a slave to history.
 
 ### When to Refactor
-* You discover a violation of the DRY principle. 
-* You find things that could be more orthogonal. 
-* Your knowledge improves. 
-* The requirements evolve. 
-* You need to improve performance. 
+-[ ] You discover a violation of the DRY principle.
+-[ ] You find things that could be more orthogonal.
+-[ ] Your knowledge improves.
+-[ ] The requirements evolve.
+-[ ] You need to improve performance.
 
 ### Cutting the Gordian Knot
 When solving _impossible_ problems, ask yourself:
 
-* Is there an easier way? 
-* Am I solving the right problem? 
-* Why is this a problem? 
-* What makes it hard? 
-* Do I have to do it this way? 
-* Does it have to be done at all? 
+-[ ] Is there an easier way?
+-[ ] Am I solving the right problem?
+-[ ] Why is this a problem?
+-[ ] What makes it hard?
+-[ ] Do I have to do it this way?
+-[ ] Does it have to be done at all?
 
 ### Aspects of Testing
-* Unit testing 
-* Integration testing 
-* Validation and verification 
-* Resource exhaustion, errors, and recovery 
-* Performance testing 
-* Usability testing 
-* Testing the tests themselves 
+-[ ] Unit testing
+-[ ] Integration testing
+-[ ] Validation and verification
+-[ ] Resource exhaustion, errors, and recovery
+-[ ] Performance testing
+-[ ] Usability testing
+-[ ] Testing the tests themselves
 
 Content from The Pragmatic Programmer, by Andrew Hunt and David Thomas. Visit [www.pragmaticprogrammer.com](http://www.pragmaticprogrammer.com).
 Copyright 2000 by Addison Wesley Longman, Inc.
