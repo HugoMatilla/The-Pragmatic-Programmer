@@ -503,6 +503,7 @@ Use `finally` to free resources.
 Be careful about how many other modules you interact with and how you came to interact with them.
 
 Traversing relationships between objects directly can quickly lead to a combinatorial explosion.
+
 ```java
 
 	book.pages().last().text().
@@ -511,6 +512,7 @@ Traversing relationships between objects directly can quickly lead to a combinat
 
 	book.textOfLastPage()
 ```
+
 Symptoms:
 
 1. Large projects where the command to link a unit test is longer than the test program itself
@@ -520,7 +522,8 @@ Symptoms:
 ### The Law of Demeter for Functions
 
 The Law of Demeter for functions states that  any method of an object should call only methods  belonging to:
-```
+
+```js
 
 	class Demeter {
   		private A a;
@@ -532,6 +535,7 @@ The Law of Demeter for functions states that  any method of an object should cal
   		}
 	}
 ```
+
 **Tip 36: Minimize Coupling Between Modules**
 
 ### Does It Really Make a Difference?
@@ -662,14 +666,17 @@ Pragmatic Programmers estimate the resources that algorithms use—time, process
 
 ### Use: Big O Notation
 * **O(1)**: Constant (access element in array, simple statements)
-```
+
+```js
 	bool IsFirstElementNull(IList<string> elements)
 	{
     	return elements[0] == null;
 	}
 ```
+
 * **O(lg(n))**: Logarithmic (binary search) lg(n) = lg2(n)
-```
+
+```js
 
 	Int BinarySearch(list, target)
 	{
@@ -683,8 +690,10 @@ Pragmatic Programmers estimate the resources that algorithms use—time, process
 	}
 
 ```
+
 * **O(n)**: Linear: Sequential search
-```
+
+```js
 
 	bool ContainsValue(IList<string> elements, string value)
 	{
@@ -699,7 +708,8 @@ Pragmatic Programmers estimate the resources that algorithms use—time, process
 ```
 * **O(n lg(n))**: Worse than linear but not much worse(average runtime of quickshort, headsort)
 * **O(n²)**: Square law (selection and insertion sorts)
-```
+
+```js
 
 	bool ContainsDuplicates(IList<string> elements)
 	{
@@ -720,7 +730,8 @@ Pragmatic Programmers estimate the resources that algorithms use—time, process
 ```
 * **O(n³)**: Cubic (multiplication of 2 n x n matrices)
 * **O(Cⁿ)**: Exponential (travelling salesman problem, set partitioning)
-```
+
+```js
 
 	int Fibonacci(int number)
 	{
