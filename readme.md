@@ -529,9 +529,9 @@ The Law of Demeter for functions states that  any method of an object should cal
   		private A a;
   		void m(B b) {
   			a.hello(); 							//itself
-    		b.hello(); 							//any parameters that were passed to the method
-    		new Z().hello(); 					// any object it created
-    		Singleton.INSTANCE.hello(); 		// any directly held component
+			b.hello(); 							//any parameters that were passed to the method
+			new Z().hello(); 					// any object it created
+			Singleton.INSTANCE.hello(); 		// any directly held component
   		}
 	}
 ```
