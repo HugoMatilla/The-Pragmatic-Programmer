@@ -151,6 +151,7 @@ _An investment in knowledge always pays the best interest._
 * Get wired.
 
 You need to ensure that the knowledge in your portfolio is accurate and unswayed by either vendor or media hype.
+
 **Tip 9: Critically Analyze What You Read and Hear**
 
 
