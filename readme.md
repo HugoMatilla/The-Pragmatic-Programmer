@@ -865,6 +865,7 @@ The key to managing growth of requirements is to point out each new feature's im
 
 ### Maintain a Glossary
 It's very hard to succeed on a project where the users and developers refer to the same thing by different names or, even worse, refer to different things by the same name.
+
 **Tip 54: Use a Project Glossary**
 
 ### Get the Word Out
@@ -888,6 +889,7 @@ If you can not find the solution, step back and ask yourself these questions:
 
 ## 38.-Not Until You're Ready
 If you sit down to start typing and there's some nagging doubt in your mind, heed it.
+
 **Tip 56: Listen to Nagging Doubts—Start When You're Ready**
 
 ### Good Judgment or Procrastination?
@@ -968,6 +970,7 @@ Automation is an essential component of every project team
 ## 42.-Ubiquitous Automation
 ### All on Automatic
 **Tip 61: Don't Use Manual Procedures**
+
 Using _cron_, we can schedule backups, nightly build, Web site... unattended, automatically.
 
 ### Compiling the Project
@@ -1007,7 +1010,7 @@ Tests that run with every build are the most effective.
 
 The earlier a bug is found, the cheaper it is to remedy. "Code a little, test a little".
 
-**Tip 63: Coding Ain't Done 'Til All the Tests Run**
+**Tip 63: Coding Ain't Done til All the Tests Run**
 
 ### 3 Main aspects:
 
