@@ -90,7 +90,7 @@ Turn off the autopilot and take control. Constantly critique and appraise your w
 ## 1.-The Cat Ate My Source Code
 **Tip 3: Provide Options, Don't Make Lame Excuses**
 
-Instead of excuses, provide options. Don't say it can't be done. Explain what can be done to salvage the situation.
+Instead of excuses, provide options. Don't say it can't be done; explain what can be done to salvage the situation.
 
 ## 2.-Software Entropy
 One broken window, left unrepaired for any substantial length of time, instills in the inhabitants of the building a sense of abandonment—a sense that the powers that be don't care about the building. So another window gets broken. People start littering. Graffiti appears. Serious structural damage begins. In a relatively short space of time, the building becomes damaged beyond the owner's desire to fix it, and the sense of abandonment becomes reality.
@@ -335,7 +335,7 @@ The refinement and confidence in the schedule gets better and better each iterat
 **Tip 19: Iterate the Schedule with the Code**
 
 ### What to Say When Asked for an Estimate
-**I'll get back to you.**
+**"I'll get back to you."**
 
 ### Challenges
 Start keeping a log of your estimates. For each, track how accurate you turned out to be. If your error was greater than 50%, try to find out where your estimate went wrong.
