@@ -151,6 +151,7 @@ _An investment in knowledge always pays the best interest._
 * Get wired.
 
 You need to ensure that the knowledge in your portfolio is accurate and unswayed by either vendor or media hype.
+
 **Tip 9: Critically Analyze What You Read and Hear**
 
 
@@ -169,6 +170,7 @@ You need to ensure that the knowledge in your portfolio is accurate and unswayed
 * Involve your audience:  Get their feedback, and pick their brains.
 * Be a listener: Encourage people to talk by asking questions.
 * Get back to people: Keep people informed afterwards.
+
 **Tip 10: It's Both What You Say and the Way You Say It**
 
 # Chapter 2. A Pragmatic Approach
@@ -378,6 +380,7 @@ Can't you do everything equally well by pointing and clicking in a GUI?
 
 ## 18.-Debugging
 **Tip 24: Fix the Problem, Not the Blame**
+
 **Tip 25: Don't Panic**
 
 ### A Debugging Mindset
@@ -401,6 +404,7 @@ Now what happens before and after.
 Explain the bug to someone else.
 #### Process of Elimination
 It is possible that a bug exists in the OS, the compiler, or a third-party product—but this should not be your first thought.
+
 **Tip 26: "select" Isn't Broken**
 
 ### The Element of Surprise
@@ -415,6 +419,7 @@ It is possible that a bug exists in the OS, the compiler, or a third-party produ
 
 ## 19.-Text Manipulation
 **Tip 28: Learn a Text Manipulation Language**
+
 ## 20.-Code Generators
 **Tip 29: Write Code That Writes Code**
 Two main types of code generators:
@@ -424,11 +429,14 @@ Two main types of code generators:
 
 ### Code Generators Needn't Be Complex
 Keep the input format simple, and the code generator becomes simple.
+
 ### Code Generators Needn't Generate Code
 You can use code generators to write just about any output: HTML, XML, plain text - any text that might be an input somewhere
 else in your project.
+
 # Chapter 4. A Pragmatic Paranoia
 **Tip 30: You can't write Perfect Software**
+
 No one in the brief history of computing has ever written a piece of perfect software.
 Pragmatic Programmers don't trust themselves, either.
 
@@ -488,7 +496,9 @@ If your code tries to open a file for reading and that file does not exist, shou
 
 ## 25.-How to Balance Resources
 When managing resources: memory, transactions, threads, flies, timers—all kinds of things with limited availability, we have to close, finish, delete, deallocate them when we are done.
+
 **Tip 35: Finish What You Start**
+
 ### Nest Allocations
 
 * 1.-Deallocate resources in the opposite order to that in which you allocate them
@@ -525,15 +535,15 @@ The Law of Demeter for functions states that  any method of an object should cal
 
 ```js
 
-	class Demeter {
-  		private A a;
-  		void m(B b) {
-  			a.hello(); 							//itself
-			b.hello(); 							//any parameters that were passed to the method
-			new Z().hello(); 					// any object it created
-			Singleton.INSTANCE.hello(); 		// any directly held component
-  		}
+class Demeter {
+	private A a;
+	void m(B b) {
+		a.hello(); 							//itself
+		b.hello(); 							//any parameters that were passed to the method
+		new Z().hello(); 					// any object it created
+		Singleton.INSTANCE.hello(); 		// any directly held component
 	}
+}
 ```
 
 **Tip 36: Minimize Coupling Between Modules**
@@ -545,11 +555,13 @@ Balance the pros and cons for your particular application.
 
 ## 27.-Metaprogramming
 "Out with the details!" Get them out of the code. While we're at it, we can make our code highly configurable and "soft"—that is, easily adaptable to changes.
+
 ### Dynamic Configuration
 **Tip 37: Configure, Don't Integrate**
 ### Metadata-Driven Applications
 We want to configure and drive the application via metadata as much as possible.
 _Program for the general case, and put the specifics somewhere else —outside the compiled code base_
+
 **Tip 38: Put Abstractions in Code Details in Metadata**
 
 Benefits:
@@ -853,6 +865,7 @@ The key to managing growth of requirements is to point out each new feature's im
 
 ### Maintain a Glossary
 It's very hard to succeed on a project where the users and developers refer to the same thing by different names or, even worse, refer to different things by the same name.
+
 **Tip 54: Use a Project Glossary**
 
 ### Get the Word Out
@@ -876,6 +889,7 @@ If you can not find the solution, step back and ask yourself these questions:
 
 ## 38.-Not Until You're Ready
 If you sit down to start typing and there's some nagging doubt in your mind, heed it.
+
 **Tip 56: Listen to Nagging Doubts—Start When You're Ready**
 
 ### Good Judgment or Procrastination?
@@ -956,6 +970,7 @@ Automation is an essential component of every project team
 ## 42.-Ubiquitous Automation
 ### All on Automatic
 **Tip 61: Don't Use Manual Procedures**
+
 Using _cron_, we can schedule backups, nightly build, Web site... unattended, automatically.
 
 ### Compiling the Project
@@ -995,7 +1010,7 @@ Tests that run with every build are the most effective.
 
 The earlier a bug is found, the cheaper it is to remedy. "Code a little, test a little".
 
-**Tip 63: Coding Ain't Done 'Til All the Tests Run**
+**Tip 63: Coding Ain't Done til All the Tests Run**
 
 ### 3 Main aspects:
 
@@ -1014,9 +1029,11 @@ The earlier a bug is found, the cheaper it is to remedy. "Code a little, test a 
 * Test data: there are only two kinds of data: real-world data and synthetic data.
 * Exercising GUI systems: requires specialized testing tools, based on a simple event capture/playback model.
 * Testing the tests: After you have written a test to detect a particular bug, cause the bug deliberately and make sure the test complains.
-	**Tip 64: Use Saboteurs to Test Your Testing**
+	
+**Tip 64: Use Saboteurs to Test Your Testing**
 * Testing thoroughly:
-	**Tip 65: Test State Coverage, Not Code Coverage**
+
+**Tip 65: Test State Coverage, Not Code Coverage**
 
 #### 3.-When to Test
 As soon as any production code exists, it needs to be tested.
@@ -1024,6 +1041,7 @@ Most testing should be done automatically.
 
 ### Tightening the Net
 If a bug slips through the net of existing tests, you need to add a new test to trap it next time.
+
 **Tip 66: Find Bugs Once**
 
 ## 44.-It's All Writing
