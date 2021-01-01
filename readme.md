@@ -1156,7 +1156,7 @@ No decision is cast in stone. Instead, consider each as being written in the san
 **Tip 15: Use Tracer Bullets to Find the Target**
 Tracer bullets let you home in on your target by trying things and seeing how close they land.
 
-**Tip 12: Prototype to Learn**
+**Tip 16: Prototype to Learn**
 Prototyping is a learning experience. Its value lies not in the code you produce, but in the lessons you learn.
 
 **Tip 17: Program Close to the Problem Domain**
