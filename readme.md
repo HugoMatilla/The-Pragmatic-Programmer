@@ -399,7 +399,7 @@ Try to discover the root cause of a problem, not just this particular appearance
 #### Visualize Your Data
 Use the tools that the debugger offers you. Pen and paper can also help.
 #### Tracing
-Now what happens before and after.
+Know what happens before and after.
 #### Rubber Ducking
 Explain the bug to someone else.
 #### Process of Elimination
