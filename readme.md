@@ -223,7 +223,7 @@ Be prepared for changes.
 **Tip 14: There are no Final Decisions.**
 
 ## 10-Tracer Bullets
-In new projects your users requirements may be vague. Use of new algorithms, techniques, languages, or libraries unknowns will come. And environment will change over time before you are done.
+In new projects, your user's requirements may be vague. Use of new algorithms, techniques, languages, or libraries unknowns will come. An environment will change over time before you are done.
 We're looking for something that gets us from a requirement to some aspect of the final system quickly, visibly, and repeatably.
 
 **Tip 15: Use Tracer Bullets to Find the Target**
@@ -346,13 +346,13 @@ Start keeping a log of your estimates. For each, track how accurate you turned o
 
 ## 14.-The Power of Plain Text
 
-### Drawbacks
+### Drawbacks of specific formats
 * more space
 * computationally more expensive
 
 ### The Power of Text
 * Insurance against obsolescence: you will always have a chance to be able to use text.
-* Leverage: Virtually every tool in the computing can operate on plain text.
+* Leverage: Virtually every tool in computing can operate on plain text.
 * Easier testing
 
 ## 15.-Shell Games
@@ -388,7 +388,7 @@ Don't waste a single neuron on the train of thought that begins "but that can't 
 Try to discover the root cause of a problem, not just this particular appearance of it.
 
 ### Where to Start
-* Before you start, check the warnings or better remove all of them.
+* Before you start, address the compiler warnings.
 * You first need to be accurate in your observations and data.
 
 ### Debugging Strategies
@@ -578,7 +578,7 @@ A flexible approach is to write programs that can reload their configuration whi
 * long-running server process:  provide some way to reread and apply metadata while the program is running.
 * small client GUI application: if restarts quickly no problem.
 
-## 28.- Temporal Coupling
+## 28.-Temporal Coupling
 Two aspects of time:
 
 * Concurrency: things happening at the same time
